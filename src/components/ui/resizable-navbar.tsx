@@ -7,9 +7,19 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
+import React, { createContext, useContext, useRef, useState } from "react";
 
-import React, { useRef, useState } from "react";
+const NavbarContext = createContext<{ visible: boolean } | undefined>(
+  undefined,
+);
 
+export const useNavbar = () => {
+  const context = useContext(NavbarContext);
+  if (!context) {
+    throw new Error("useNavbar must be used within a NavbarProvider");
+  }
+  return context;
+};
 
 interface NavbarProps {
   children: React.ReactNode;
@@ -19,7 +29,6 @@ interface NavbarProps {
 interface NavBodyProps {
   children: React.ReactNode;
   className?: string;
-  visible?: boolean;
 }
 
 interface NavItemsProps {
@@ -34,7 +43,6 @@ interface NavItemsProps {
 interface MobileNavProps {
   children: React.ReactNode;
   className?: string;
-  visible?: boolean;
 }
 
 interface MobileNavHeaderProps {
@@ -66,24 +74,19 @@ export const Navbar = ({ children, className }: NavbarProps) => {
   });
 
   return (
-    <motion.div
-      ref={ref}
-      // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
-      className={cn("sticky inset-x-0 top-20 z-40 w-full", className)}
-    >
-      {React.Children.map(children, (child) =>
-        React.isValidElement(child)
-          ? React.cloneElement(
-              child as React.ReactElement<{ visible?: boolean }>,
-              { visible },
-            )
-          : child,
-      )}
-    </motion.div>
+    <NavbarContext.Provider value={{ visible }}>
+      <motion.div
+        ref={ref}
+        className={cn("sticky inset-x-0 top-20 z-40 w-full", className)}
+      >
+        {children}
+      </motion.div>
+    </NavbarContext.Provider>
   );
 };
 
-export const NavBody = ({ children, className, visible }: NavBodyProps) => {
+export const NavBody = ({ children, className }: NavBodyProps) => {
+  const { visible } = useNavbar();
   return (
     <motion.div
       animate={{
@@ -145,7 +148,8 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
   );
 };
 
-export const MobileNav = ({ children, className, visible }: MobileNavProps) => {
+export const MobileNav = ({ children, className }: MobileNavProps) => {
+  const { visible } = useNavbar();
   return (
     <motion.div
       animate={{
@@ -231,13 +235,14 @@ export const MobileNavToggle = ({
 };
 
 export const NavbarLogo = () => {
+  const { visible } = useNavbar();
   return (
     <a
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <img
-        src="/Logo.svg"
+        src={visible ? "/Logo-white.svg" : "/Logo.svg"}
         alt="logo"
         width={40}
         height={40}
