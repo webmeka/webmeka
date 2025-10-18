@@ -49,9 +49,7 @@ export default function HeroSectionOne() {
           }}
           className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
         >
-          With AI, you can launch your website in hours, not days. Try our best
-          in class, state of the art, cutting edge AI tools to get your website
-          up.
+          Webmeka is a Team of passionate creatives. We blend strategic thinking with stunning designs to bring your brand to life.
         </motion.p>
         <motion.div
           initial={{
