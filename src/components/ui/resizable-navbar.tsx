@@ -77,7 +77,7 @@ export const Navbar = ({ children, className }: NavbarProps) => {
     <NavbarContext.Provider value={{ visible }}>
       <motion.div
         ref={ref}
-        className={cn("sticky inset-x-0 top-20 z-40 w-full", className)}
+        className={cn("fixed inset-x-0 top-20 z-40 w-full", className)}
       >
         {children}
       </motion.div>
@@ -239,13 +239,13 @@ export const NavbarLogo = () => {
   return (
     <a
       href="#"
-      className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+      className="relative z-20 mr-4 flex items-center space-x-2 px-2 text-sm font-normal text-black"
     >
       <img
         src={visible ? "/Logo-white.svg" : "/Logo.svg"}
         alt="logo"
-        width={40}
-        height={40}
+        width={45}
+        height={45}
       />
       <span className="font-bold text-2xl text-black dark:text-white">WEBMEKA</span>
     </a>
