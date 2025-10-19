@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import WebmekaNavbar from "@/components/navbar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
+      <body  id="Home"
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
@@ -34,6 +35,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <WebmekaNavbar />
             {children}
           </ThemeProvider>
       </body>

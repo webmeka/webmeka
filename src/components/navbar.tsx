@@ -16,7 +16,7 @@ import { useState } from "react";
 export default function WebmekaNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "#Home" },
     { name: "Services", link: "#services" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },

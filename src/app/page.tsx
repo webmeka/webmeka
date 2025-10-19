@@ -1,13 +1,14 @@
 import HeroSectionOne from "@/components/hero-section";
-import WebmekaNavbar from "@/components/navbar";
+import ServicesSection from "@/components/services-section";
 
 export default function Home() {
   return (
-    <div className="font-sans flex flex-col overflow-x-hidden items-center justify-items-center min-h-screen">
-      <WebmekaNavbar />
-      <div className="pt-36">
+    <main className="font-sans relative flex flex-col overflow-x-hidden items-center justify-items-center mx-auto">
+      
+      <div className=" w-full">
         <HeroSectionOne />
+        <ServicesSection />
       </div>
-    </div>
+    </main>
   );
 }

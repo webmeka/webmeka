@@ -77,7 +77,7 @@ export const Navbar = ({ children, className }: NavbarProps) => {
     <NavbarContext.Provider value={{ visible }}>
       <motion.div
         ref={ref}
-        className={cn("fixed inset-x-0 top-20 z-40 w-full", className)}
+        className={cn("sticky inset-x-0 top-20 z-40 w-full", className)}
       >
         {children}
       </motion.div>
