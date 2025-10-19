@@ -100,9 +100,8 @@ export const BackgroundBeamsWithCollision = ({
 const CollisionMechanism = React.forwardRef<
   HTMLDivElement,
   {
-    containerRef: React.RefObject<HTMLDivElement>;
-    parentRef: React.RefObject<HTMLDivElement>;
-    beamOptions?: {
+   containerRef: React.RefObject<HTMLDivElement | null>;
+parentRef: React.RefObject<HTMLDivElement | null>; {
       initialX?: number;
       translateX?: number;
       initialY?: number;
