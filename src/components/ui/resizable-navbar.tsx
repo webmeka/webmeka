@@ -1,5 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import {
   motion,
@@ -199,6 +200,7 @@ export const MobileNavMenu = ({
   children,
   className,
   isOpen,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onClose,
 }: MobileNavMenuProps) => {
   return (
@@ -241,11 +243,12 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 text-sm font-normal text-black"
     >
-      <img
+      <Image
         src={visible ? "/Logo-white.svg" : "/Logo.svg"}
         alt="logo"
         width={45}
         height={45}
+        priority
       />
       <span className="font-bold text-2xl text-black dark:text-white">WEBMEKA</span>
     </a>
