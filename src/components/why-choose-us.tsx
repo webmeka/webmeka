@@ -1,6 +1,6 @@
 "use client";
 
-import { WhyChooseWebmeka } from "@/components/ui/features-section";
+import { WhyChooseWebmeka } from "@/components/ui/WhyChooseWebmeka";
 
 const ChooseUsSection = () => {
   return (

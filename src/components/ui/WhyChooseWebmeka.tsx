@@ -15,22 +15,16 @@ import {
 export function WhyChooseWebmeka() {
   const features = [
     {
-      title: "Bold Design Thinking",
-      description:
-        "Every project starts with ideas that challenge norms and create visual impact.",
-      icon: <IconBrush />,
-    },
-    {
-      title: "Modern Web Experiences",
-      description:
-        "We design responsive, lightning-fast sites built with the latest web technologies.",
-      icon: <IconBrandChrome />,
-    },
-    {
       title: "Strategic Creativity",
       description:
         "We blend art and strategy to make your brand stand out with purpose and clarity.",
-      icon: <IconBolt />,
+      icon: <IconRocket />,
+    },
+      {
+      title: "Cross-Platform Focus",
+      description:
+        "From desktop to mobile, our designs adapt beautifully to every screen.",
+      icon: <IconDevices2 />,
     },
     {
       title: "Collaborative Approach",
@@ -39,34 +33,16 @@ export function WhyChooseWebmeka() {
       icon: <IconHeartHandshake />,
     },
     {
-      title: "Multi-Platform Focus",
-      description:
-        "From desktop to mobile, our designs adapt beautifully to every screen.",
-      icon: <IconDevices2 />,
-    },
-    {
       title: "Attention to Detail",
       description:
         "Clean code, cohesive visuals, and thoughtful micro-interactions define our craft.",
-      icon: <IconStars />,
-    },
-    {
-      title: "Human-Centered Design",
-      description:
-        "We prioritize usability and emotion-designing experiences people love to use.",
       icon: <IconMoodSmileBeam />,
-    },
-    {
-      title: "Creative Launch Partner",
-      description:
-        "From concept to deployment, Webmeka ensures your brand goes live with power and polish.",
-      icon: <IconRocket />,
     },
   ];
 
   return (
-    <section id="WhyWebmeka" className="relative z-10 py-20 max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <section id="WhyWebmeka" className="relative z-10 pt-20 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2">
         {features.map((feature, index) => (
           <Feature key={feature.title} {...feature} index={index} />
         ))}
@@ -90,14 +66,14 @@ const Feature = ({
     <div
       className={cn(
         "flex flex-col lg:border-r py-10 relative group/feature dark:border-neutral-800",
-        (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
-        index < 4 && "lg:border-b dark:border-neutral-800"
+        (index === 0 || index === 2) && "lg:border-l dark:border-neutral-800",
+        index < 2 && "lg:border-b dark:border-neutral-800"
       )}
     >
-      {index < 4 ? (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-neutral-100 dark:from-slate-800 to-transparent pointer-events-none" />
+      {index < 2 ? (
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-neutral-100 dark:from-slate-900 to-transparent pointer-events-none" />
       ) : (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-neutral-100 dark:from-slate-800 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-neutral-100 dark:from-slate-900 to-transparent pointer-events-none" />
       )}
 
       <div className="mb-4 relative z-10 px-10 text-cyan-400">{icon}</div>
