@@ -53,7 +53,7 @@ export function WhyChooseWebmeka() {
     {
       title: "Human-Centered Design",
       description:
-        "We prioritize usability and emotion-designing for experiences people love to use.",
+        "We prioritize usability and emotion-designing experiences people love to use.",
       icon: <IconMoodSmileBeam />,
     },
     {
