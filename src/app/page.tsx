@@ -1,6 +1,7 @@
 import HeroSectionOne from "@/components/hero-section";
 import ServicesSection from "@/components/services-section";
 import ChooseUsSection from "@/components/why-choose-us";
+import ContactUsSection from "@/components/contact-us-section";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <HeroSectionOne />
         <ServicesSection />
         <ChooseUsSection />
+        <ContactUsSection />
       </div>
     </main>
   );
