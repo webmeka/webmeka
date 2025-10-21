@@ -19,7 +19,7 @@ export default function HeroSectionOne() {
       </div>
       <div className="px-4 py-10 md:py-20">
         <h1 className="relative z-10 mx-auto max-w-4xl text-center text-5xl font-bold text-slate-700 lg:text-7xl dark:text-slate-300">
-          {"A Creative Design Agency"
+          {"A Digital Creative Agency"
             .split(" ")
             .map((word, index) => (
               <motion.span

@@ -2,12 +2,8 @@
 
 import { cn } from "@/lib/utils";
 import {
-  IconBrush,
-  IconBrandChrome,
-  IconBolt,
   IconHeartHandshake,
   IconDevices2,
-  IconStars,
   IconMoodSmileBeam,
   IconRocket,
 } from "@tabler/icons-react";
