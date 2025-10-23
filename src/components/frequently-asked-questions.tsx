@@ -5,30 +5,35 @@ import Link from 'next/link'
 
 export default function WebmekaFAQs() {
     const faqItems = [
-        {
+                {
             id: 'item-1',
-            question: 'When can I expect my website to go live?',
-            answer: 'Once you provide all necessary content and feedback, We launch your website within 3 to 5 weeks, depending on the complexity of the project and creative scope.',
+            question: 'Do I get a say in the creative process?',
+            answer: 'Absolutely. Collaboration is in our team\'s DNA. For every phase of the project, your ideas, preferences, and feedback shape the direction we take on. Whether you want to be closely involved in design decisions or give us full creative freedom, we adapt to your flow.',
         },
         {
             id: 'item-2',
+            question: 'When can I expect my website to go live?',
+            answer: 'Once you provide all necessary content and feedback, we launch your website within 4 weeks, depending on the complexity of the project and creative scope.',
+        },
+        {
+            id: 'item-3',
             question: 'What is your payment process?',
             answer: 'All Webmeka invoices are processed through mobile payments. For standard projects, we require a 50% down payment to begin work. The remaining balance is due after your final website review.',
         },
         {
-            id: 'item-3',
-            question: 'Do I officially own my website or brand assets?',
+            id: 'item-4',
+            question: 'Do I officially own my website and brand assets?',
             answer: 'Yes! After the final payment, ownership is fully yours. We use open technologies like Next.js, so you are never tied to any platform or dependency.',
         },
         {
-            id: 'item-4',
+            id: 'item-5',
             question: 'Do you use AI in your creative process?',
-            answer: "Yes, AI helps us explore ideas faster, test designs, and refine content. It’s a creative assistant. Every decision, detail, and design choice is led by people, guided by purpose, and elevated by technology. That’s who we are. We are Webmeka.",
+            answer: "Yes, AI helps us explore ideas faster, test designs, and refine content. It's a creative assistant. Every decision, detail, and design choice is led by people, guided by purpose, and elevated by technology. That's who we are. Team Webmeka.",
         },
         {
-            id: 'item-5',
+            id: 'item-6',
             question: 'What next after my website launches?',
-            answer: 'After your website goes live, we offer ongoing support and maintenance packages to ensure your site remains up-to-date and continues to meet your needs. We also provide training sessions to help you manage your site effectively.',
+            answer: 'After your website goes live, we offer ongoing support and maintenance packages to ensure your site remains up-to-date and continues to meet your needs. We also provide basic training to help you manage your site effectively.',
         },
     ]
 
