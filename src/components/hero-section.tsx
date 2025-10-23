@@ -103,7 +103,7 @@ export default function HeroSectionOne() {
             <Image
               src="/webmekaWeb.webp"
               alt="Landing page preview"
-              className="aspect-[32/9] h-auto md:h-50 w-full object-cover"
+              className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               height={800}
               width={1000}
               priority
