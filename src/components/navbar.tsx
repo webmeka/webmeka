@@ -18,7 +18,7 @@ export default function WebmekaNavbar() {
   const navItems = [
     { name: "Home", link: "#" },
     { name: "Services", link: "#services" },
-    { name: "Projects", link: "#projects" },
+    { name: "Projects", link: "#" },
     { name: "Contact", link: "#contact" },
   ];
 
