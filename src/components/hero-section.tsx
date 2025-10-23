@@ -50,7 +50,12 @@ export default function HeroSectionOne() {
           }}
           className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
         >
-          Webmeka is a Team of passionate creatives. We blend strategic thinking with stunning designs to bring your brand to life.
+        <span className="relative z-20 inline-block rounded-xl border border-transparent px-2 mr-1 border-white">
+  webmeka
+</span>
+
+
+ is a Team of passionate creatives. We blend strategic thinking with stunning designs to bring your brand to life.
         </motion.p>
         <motion.div
           initial={{
