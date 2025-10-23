@@ -22,7 +22,7 @@ const links = [
 
 export default function FooterSection() {
     return (
-        <footer className="py-16 md:py-32">
+        <footer className="pb-16 md:py-28">
             <div className="mx-auto max-w-5xl px-6">
                 <Link
                     href="/"
