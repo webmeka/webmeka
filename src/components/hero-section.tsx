@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function HeroSectionOne() {
   return (
-    <section id="WebmekaHero" className="relative mx-auto mt-10 flex max-w-7xl flex-col items-center justify-center">
+    <section id="WebmekaHero" className="relative mx-auto mt-30 flex max-w-7xl flex-col items-center justify-center">
 
       <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
         <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-cyan-400 to-transparent" />
@@ -50,12 +50,7 @@ export default function HeroSectionOne() {
           }}
           className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
         >
-        <span className="relative z-20 inline-block rounded-xl border border-transparent px-2 mr-1 border-white">
-  webmeka
-</span>
-
-
- is a Team of passionate creatives. We blend strategic thinking with stunning designs to bring your brand to life.
+        Webmeka is a Team of passionate creatives. We blend strategic thinking with stunning designs to bring your brand to life.
         </motion.p>
         <motion.div
           initial={{

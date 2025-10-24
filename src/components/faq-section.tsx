@@ -25,8 +25,13 @@ export default function WebmekaFAQs() {
             question: 'Do I officially own my website and brand assets?',
             answer: 'Yes! After the final payment, ownership is fully yours. We use open technologies like Next.js, so you are never tied to any platform or dependency.',
         },
-        {
+                {
             id: 'item-5',
+            question: 'Do you use AI in your creative process?',
+            answer: "Absolutely, AI helps us explore ideas faster, test designs, and refine content. It's a creative assistant. However, every decision and design choice is led by people, guided by purpose, and elevated by technology. That's who we are. Team Webmeka.",
+        },
+        {
+            id: 'item-6',
             question: 'What next after my website launches?',
             answer: 'After your website goes live, we offer ongoing support and maintenance packages to ensure your site remains up-to-date and continues to meet your needs. We also provide basic training to help you manage your site effectively.',
         },

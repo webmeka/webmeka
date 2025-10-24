@@ -7,12 +7,12 @@ const links = [
         href: '#services',
     },
     {
-        title: 'Projects',
-        href: '#projects',
-    },
-    {
         title: 'Contact',
         href: '#contact',
+    },
+    {
+        title: 'FAQs',
+        href: '#faqs',
     },
     {
         title: 'About',
