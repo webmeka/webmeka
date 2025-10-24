@@ -1,6 +1,3 @@
-Sure thing — here’s the full README in plain Markdown format, ready to drop into your repo:
-
-````{"id":"43951","variant":"standard","title":"Webmeka Website README (Markdown)"}
 # 🕸️ Webmeka Website
 
 **Webmeka** is a digital creative agency built on design, innovation, and the power of technology.  
@@ -58,4 +55,3 @@ Crafted with 💙 by the **Webmeka** team.
 
 > “We don’t just build websites. We weave experiences.”  
 > - Team Webmeka 🕸️
-````
