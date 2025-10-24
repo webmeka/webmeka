@@ -1,4 +1,4 @@
-# 🕸️ Webmeka Website
+# 🕸️ Webmeka Official Website
 
 **Webmeka** is a digital creative agency built on design, innovation, and the power of technology.  
 This repository contains the source code for the [webmeka.com](https://webmeka.com) website - designed, developed, and maintained by the Webmeka team.
@@ -53,5 +53,6 @@ Crafted with 💙 by the **Webmeka** team.
 
 ---
 
-> “We don’t just build websites. We weave experiences.”  
-> - Team Webmeka 🕸️
+> We don’t just build websites. We weave experiences.
+
+- Team Webmeka 🕸️
