@@ -16,7 +16,7 @@ const links = [
     },
     {
         title: 'About',
-        href: '#Home',
+        href: '#',
     },
 ]
 

@@ -24,13 +24,13 @@ export const BackgroundBeamsWithCollision = ({
     {
       initialX: 600,
       translateX: 600,
-      duration: 3,
-      repeatDelay: 3,
+      duration: 4,
+      repeatDelay: 4,
       delay: 4,
     },
     {
-      initialX: 100,
-      translateX: 100,
+      initialX: 150,
+      translateX: 150,
       duration: 7,
       repeatDelay: 7,
       className: "h-6",
@@ -70,7 +70,7 @@ export const BackgroundBeamsWithCollision = ({
     <div
       ref={parentRef}
       className={cn(
-        "h-145.5 md:h-[29.5rem] relative flex items-center w-full justify-center overflow-hidden",
+        "h-145.5 md:h-[29.1rem] relative flex items-center w-full justify-center overflow-hidden",
         className
       )}
     >
