@@ -248,7 +248,7 @@ export const NavbarLogo = () => {
         height={45}
         priority
       />
-      <span className="font-bold text-2xl text-black dark:text-white">WEBMEKA</span>
+      <span className="font-medium tracking-wide text-2xl text-black dark:text-white">WEBMEKA</span>
     </a>
   );
 };

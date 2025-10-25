@@ -7,7 +7,7 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams";
 
 export default function Home() {
   return (
-    <main className="font-sans mt-5 relative flex flex-col overflow-x-hidden items-center justify-items-center mx-auto">
+    <main className="mt-5 relative flex flex-col overflow-x-hidden items-center justify-items-center mx-auto">
       <div className="w-full">
        <div className="relative w-full overflow-hidden">
         <BackgroundBeamsWithCollision className="absolute z-0">

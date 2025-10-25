@@ -8,7 +8,7 @@ import { Button } from './ui/moving-border';
 const ServicesSection = () => {
   return (
     <section id="services" className="w-full px-5 md:px-10 lg:px-20 pt-10">
-        <h2 className="text-4xl font-bold text-center  pt-25 mb-10">Our <span className='text-cyan-400'>Services</span></h2>
+        <h2 className="text-4xl text-center font-medium pt-25 mb-10">Our <span className='text-cyan-400'>Services</span></h2>
 <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {WebmekaServices.map((card) => (
           <Button
@@ -32,10 +32,10 @@ const ServicesSection = () => {
     className="lg:w-32 md:w-20 w-16"
   />
   <div className="lg:ms-5">
-    <h1 className="text-xl md:text-2xl font-bold text-center lg:text-left">
+    <h1 className="text-2xl md:text-2xl font-medium text-center lg:text-left">
       {card.title}
     </h1>
-    <p className="mt-3 font-semibold text-center lg:text-left text-white-100">
+    <p className="mt-3 text-center lg:text-left text-white-100">
       {card.desc}
     </p>
   </div>

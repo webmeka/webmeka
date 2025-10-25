@@ -41,7 +41,7 @@ export default function WebmekaFAQs() {
         <section id="faqs" className="pt-20">
             <div className="mx-auto max-w-5xl px-4 md:px-6">
                 <div className="mx-auto max-w-xl text-center">
-                    <h2 className="text-balance text-3xl font-bold md:text-4xl lg:text-5xl">Frequently <span className='text-cyan-400'>Asked Questions</span></h2>
+                    <h2 className="text-balance font-medium text-3xl md:text-4xl lg:text-5xl">Frequently <br /><span className='text-cyan-400'>Asked Questions</span></h2>
                     <p className="text-muted-foreground mt-4 text-balance">Get clear answers to the most common questions about our creative process and services.</p>
                 </div>
 
