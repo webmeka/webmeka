@@ -23,7 +23,7 @@ export default function WebmekaFAQs() {
         {
             id: 'item-4',
             question: 'Do I officially own my website and brand assets?',
-            answer: 'Yes! After the final payment, ownership is fully yours. We use open technologies like Next.js, so you are never tied to any platform or dependency.',
+            answer: 'Yes!  ownership is fully yours. We use open technologies like Next.js, so you are never locked into any platform.',
         },
                 {
             id: 'item-5',
