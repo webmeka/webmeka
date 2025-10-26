@@ -18,7 +18,7 @@ export default function HeroSectionOne() {
         <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-cyan-400 to-transparent" />
       </div>
       <div className="px-4 py-10 md:py-20">
-        <h1 className="relative z-10 mx-auto font-bold font-sans max-w-4xl text-center text-5xl text-cyan-400/90 lg:text-7xl">
+        <h1 className="relative z-10 mx-auto font-bold font-sans max-w-4xl text-center text-5xl text-cyan-400 lg:text-7xl">
           {"A Creative Design Agency"
             .split(" ")
             .map((word, index) => (
