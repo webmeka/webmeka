@@ -2,7 +2,7 @@ export const WebmekaServices = [
   {
     id: 1,
     title: "Web Design & Development",
-    desc: "Building responsive, high-performance websites with modern frameworks and pixel-perfect design.",
+    desc: "Building responsive, high-performance websites with modern frameworks and designs.",
     className: "md:col-span-2",
     thumbnail: "/WebDesign.svg",
   },

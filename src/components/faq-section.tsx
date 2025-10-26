@@ -28,7 +28,7 @@ export default function WebmekaFAQs() {
                 {
             id: 'item-5',
             question: 'Do you use AI in your creative process?',
-            answer: "Absolutely, AI helps us explore ideas faster, test designs, and refine content. It's a creative assistant. However, every decision and design choice is led by people, guided by purpose, and elevated by technology. That's who we are. Team Webmeka.",
+            answer: "Absolutely, AI helps us explore ideas faster, test designs, and refine content. It's a creative assistant. However, every decision and design choice is led by people, with purpose and clarity. That's who we are. Team Webmeka.",
         },
         {
             id: 'item-6',

@@ -35,7 +35,7 @@ const ServicesSection = () => {
     <h1 className="text-2xl md:text-2xl font-medium text-center lg:text-left">
       {card.title}
     </h1>
-    <p className="mt-3 text-center lg:text-left text-white-100">
+    <p className="mt-3 text-center lg:text-left text-base text-white-100">
       {card.desc}
     </p>
   </div>
