@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://webmeka.com/sitemap.xml
