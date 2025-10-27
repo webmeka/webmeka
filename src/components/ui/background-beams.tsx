@@ -15,8 +15,8 @@ export const BackgroundBeamsWithCollision = ({
 
   const beams = [
     {
-      initialX: 46,
-      translateX: 46,
+      initialX: 45,
+      translateX: 45,
       duration: 7,
       repeatDelay: 5,
       delay: 2,
@@ -239,7 +239,7 @@ const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="absolute -inset-x-10 top-0 m-auto h-2 w-10 rounded-full bg-gradient-to-r from-transparent via-cyan-400 to-transparent blur-sm"
+        className="absolute -inset-x-10 top-0 m-auto h-2 w-10 rounded-full bg-gradient-to-r from-transparent via-webmeka to-transparent blur-sm"
       ></motion.div>
       {spans.map((span) => (
         <motion.span
@@ -251,7 +251,7 @@ const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
             opacity: 0,
           }}
           transition={{ duration: Math.random() * 1.5 + 0.5, ease: "easeOut" }}
-          className="absolute h-1 w-1 rounded-full bg-gradient-to-b from-indigo-500 to-cyan-400"
+          className="absolute h-1 w-1 rounded-full bg-gradient-to-b from-webmeka to-cyan-400"
         />
       ))}
     </div>

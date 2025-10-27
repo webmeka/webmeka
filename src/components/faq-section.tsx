@@ -41,7 +41,7 @@ export default function WebmekaFAQs() {
         <section id="faqs" className="pt-20">
             <div className="mx-auto max-w-5xl px-4 md:px-6">
                 <div className="mx-auto max-w-xl text-center">
-                    <h2 className="text-balance font-medium text-3xl md:text-4xl lg:text-5xl">Frequently <br /><span className='text-cyan-400'>Asked Questions</span></h2>
+                    <h2 className="text-balance font-medium text-3xl md:text-4xl lg:text-5xl">Frequently <br /><span className='text-webmeka'>Asked Questions</span></h2>
                     <p className="text-muted-foreground mt-4 text-balance">Get clear answers to the most common questions about our creative process and services.</p>
                 </div>
 
@@ -67,7 +67,7 @@ export default function WebmekaFAQs() {
                         Can&#39;t find what you&#39;re looking for? Contact our{' '}
                         <Link
                             href="#contact"
-                            className="text-cyan-400 font-medium hover:underline">
+                            className="text-webmeka font-medium hover:underline">
                              team
                         </Link>
                     </p>
