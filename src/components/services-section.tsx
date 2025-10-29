@@ -3,7 +3,7 @@
 import { WebmekaServices } from "@/data";
 import Image from "next/image";
 import React from 'react'
-import { Button } from './ui/moving-border';
+import { Button } from './ui/shiny-border';
 
 const ServicesSection = () => {
   return (

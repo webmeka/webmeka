@@ -3,7 +3,7 @@ import ServicesSection from "@/components/services-section";
 import ChooseUsSection from "@/components/why-us-section";
 import ContactUsSection from "@/components/contact-us-section";
 import  WebmekaFAQs from "@/components/faq-section";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams";
+import { BackgroundBeamsWithCollision } from "@/components/ui/beams";
 
 export default function Home() {
   return (
