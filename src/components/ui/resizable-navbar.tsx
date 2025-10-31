@@ -239,13 +239,13 @@ export const NavbarLogo = () => {
   return (
     <a
       href="#"
-      className="relative z-20 mr-4 flex items-center space-x-2 px-2 text-sm font-normal text-black"
+      className="relative z-20 flex items-center space-x-2 px-2 text-sm font-normal text-black"
     >
       <Image
         src={visible ? "/Logo-white.svg" : "/Logo.svg"}
         alt="logo"
-        width={45}
-        height={45}
+        width={50}
+        height={50}
         priority
       />
       <span className="font-medium tracking-wide text-2xl text-black dark:text-white">WEBMEKA</span>
