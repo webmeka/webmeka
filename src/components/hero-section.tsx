@@ -18,7 +18,7 @@ export default function HeroSectionOne() {
         <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-webmeka to-transparent" />
       </div>
       <div className="px-4 py-10 md:py-20">
-        <h1 className="relative z-10 mx-auto font-bold font-sans text-neutral-200 max-w-4xl text-center text-5xl  lg:text-7xl">
+        <h1 className="relative z-10 mx-auto font-bold font-sans max-w-4xl text-center text-5xl  lg:text-7xl">
           {"A Creative Design Agency"
             .split(" ")
             .map((word, index) => (
