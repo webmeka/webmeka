@@ -29,7 +29,9 @@ export default function WebmekaNavbar() {
       <NavBody className="px-5 py-4">
         <NavbarLogo />
         <NavItems items={navItems} />
-        <NavbarButton href="#contact">Contact Us</NavbarButton>
+        <div className="flex items-center justify-center">
+          <SocialLinks />
+        </div>
       </NavBody>
 
       {/* Mobile Navbar */}
@@ -49,7 +51,7 @@ export default function WebmekaNavbar() {
               {item.name}
             </a>
           ))}
-          <SocialLinks />
+          <div className="mb-8"><SocialLinks /></div>
         </MobileNavMenu>
       </MobileNav>
     </Navbar>

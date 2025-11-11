@@ -14,25 +14,25 @@ export function WhyChooseWebmeka() {
       title: "Strategic Creativity",
       description:
         "We blend art and strategy to make your brand stand out. With purpose and clarity.",
-      icon: <IconRocket />,
+      icon: <IconRocket size={38} />,
     },
       {
       title: "Cross-Platform Focus",
       description:
         "From desktop to mobile, our designs adapt beautifully to every screen.",
-      icon: <IconDevices2 />,
+      icon: <IconDevices2 size={38} />,
     },
     {
       title: "Collaborative Approach",
       description:
         "We co-create with our clients, your ideas shape our creative process.",
-      icon: <IconHeartHandshake />,
+      icon: <IconHeartHandshake size={38} />,
     },
     {
       title: "Attention to Detail",
       description:
         "Clean code, cohesive visuals, and thoughtful micro-interactions define our craft.",
-      icon: <IconMoodSmileBeam />,
+      icon: <IconMoodSmileBeam size={38} />,
     },
   ];
 

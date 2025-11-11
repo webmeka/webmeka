@@ -48,7 +48,7 @@ export default function FooterSection() {
                         </Link>
                     ))}
                 </div>
-                <SocialLinks />
+                <div className="mb-8"><SocialLinks /></div>
                 <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} WEBMEKA - All rights reserved.</span>
             </div>
         </footer>
