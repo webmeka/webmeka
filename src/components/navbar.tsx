@@ -29,7 +29,7 @@ export default function WebmekaNavbar() {
       <NavBody className="px-5 py-4">
         <NavbarLogo />
         <NavItems items={navItems} />
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center z-60">
           <SocialLinks />
         </div>
       </NavBody>
