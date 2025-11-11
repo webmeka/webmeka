@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className="mt-5 relative flex flex-col overflow-x-hidden items-center justify-items-center mx-auto">
       <div className="w-full">
-       <div className="relative w-full overflow-hidden">
-        <BackgroundBeamsWithCollision className="absolute z-0">
+       <div className="relative w-full overflow-hidden flex justify-center">
+        <BackgroundBeamsWithCollision className="absolute md:w-[70%] z-0">
           <></>
         </BackgroundBeamsWithCollision>
         <HeroSectionOne />
