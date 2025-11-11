@@ -12,6 +12,7 @@ import {
   NavbarButton,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
+import SocialLinks from "@/components/ui/socials"
 
 export default function WebmekaNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,6 +49,7 @@ export default function WebmekaNavbar() {
               {item.name}
             </a>
           ))}
+          <SocialLinks />
         </MobileNavMenu>
       </MobileNav>
     </Navbar>

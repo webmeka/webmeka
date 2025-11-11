@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const SocialLinks = () => {
   return (
-    <div className="my-8 flex flex-wrap justify-center gap-6 text-sm border border-webmeka w-fit mx-auto p-3 rounded-full">
+    <div className="my-8 flex flex-wrap justify-center gap-6 text-sm border border-webmeka w-fit mx-auto p-2 md:p-3 rounded-full">
                     <Link
                         href="https://x.com/webmeka"
                         target="_blank"
