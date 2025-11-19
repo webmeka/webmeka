@@ -9,7 +9,6 @@ import {
   MobileNavMenu,
   MobileNavToggle,
   NavbarLogo,
-  NavbarButton,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
 import SocialLinks from "@/components/ui/socials"
