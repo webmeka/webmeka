@@ -14,7 +14,7 @@ export default function HeroSectionOne() {
       <div className="absolute inset-y-0 right-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80 md:translate-x-[9vw]">
         <div className="absolute h-40 w-px bg-gradient-to-b from-transparent via-webmeka to-transparent" />
       </div>
-      <div className="px-4 py-10 md:py-20">
+      <div className="px-4 pt-10 md:pt-20">
         <h1 className="relative z-10 mx-auto font-bold font-sans max-w-4xl text-neutral-200 text-center text-5xl  lg:text-7xl">
           {"A Creative Design Agency"
             .split(" ")
