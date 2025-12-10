@@ -5,6 +5,7 @@ import WebmekaNavbar from "@/components/navbar";
 import FooterSection from "@/components/footer";
 import Script from "next/script";
 import "./globals.css";
+import "./christmas.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -59,6 +60,50 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+  <ul class="lightrope">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
             <WebmekaNavbar />
             {children}
             <FooterSection />
@@ -78,6 +123,7 @@ export default function RootLayout({
             });
           `}
         </Script>
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       </body>
     </html>
   );
