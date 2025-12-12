@@ -60,7 +60,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-  <ul class="lightrope">
+  <ul className="webmekaxmas">
   <li></li>
   <li></li>
   <li></li>

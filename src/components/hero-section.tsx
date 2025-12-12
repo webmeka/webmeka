@@ -98,7 +98,7 @@ export default function HeroSectionOne() {
         >
           <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
             <Image
-              src="/webmekaWeb.webp"
+              src="/webmeka-xmas.webp"
               alt="Landing page preview"
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               height={800}
