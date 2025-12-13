@@ -53,8 +53,8 @@ export default function FooterSection() {
                     ))}
                 </div>
                 <div className="mb-8"><SocialLinks /></div>
-                <span className="text-muted-foreground block text-center text-sm mb-4"> Crafted with 🩵 by team Webmeka</span>
-                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} WEBMEKA - All rights reserved.</span>
+                <span className="text-muted-foreground block text-center text-sm mb-4"> Crafted with 🩵 by team webmeka</span>
+                <span className="text-muted-foreground block text-center text-sm"> © 2024 -  {new Date().getFullYear()} WEBMEKA | All rights reserved.</span>
             </div>
         </footer>
     )

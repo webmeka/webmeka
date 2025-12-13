@@ -69,7 +69,7 @@ export default function PricingSection() {
                                 </ul>
                             </CardContent>
 
-                            <CardFooter className="mt-5">
+                            <CardFooter className="mt-10">
                                 <Button
                                     asChild
                                     className="w-full">
@@ -83,7 +83,7 @@ export default function PricingSection() {
                         <CardHeader>
                             <CardTitle className="font-medium">eCommerce Package</CardTitle>
                             <span className="my-3 block text-2xl font-semibold">KES 120,000/-</span>
-                            <CardDescription className="text-sm">Tailored for businesses needing e-commerce & Corporations</CardDescription>
+                            <CardDescription className="text-sm">Tailored for Corporations & businesses needing e-commerce</CardDescription>
                         </CardHeader>
 
                         <CardContent className="space-y-4">
