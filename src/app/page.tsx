@@ -1,6 +1,7 @@
 import HeroSectionOne from "@/components/hero-section";
 import ServicesSection from "@/components/services-section";
 import ChooseUsSection from "@/components/why-us-section";
+import PricingSection from "@/components/pricing-section";
 import ContactUsSection from "@/components/contact-us-section";
 import  WebmekaFAQs from "@/components/faq-section";
 import { BackgroundBeamsWithCollision } from "@/components/ui/beams";
@@ -17,6 +18,7 @@ export default function Home() {
       </div>
         <ServicesSection />
         <ChooseUsSection />
+        <PricingSection />
         <WebmekaFAQs />
         <ContactUsSection />
       </div>

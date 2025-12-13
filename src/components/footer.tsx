@@ -11,6 +11,10 @@ const links = [
         title: 'Contact',
         href: '#contact',
     },
+        {
+        title: 'Pricing',
+        href: '#pricing',
+    },
     {
         title: 'FAQs',
         href: '#faqs',
