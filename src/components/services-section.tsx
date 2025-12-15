@@ -13,7 +13,7 @@ const ServicesSection = () => {
         {WebmekaServices.map((card) => (
           <Button
             key={card.id}
-            duration={Math.floor(Math.random() * 50000) + 50000}
+            duration={Math.floor(Math.random() * 18000) + 18000}
             borderRadius="1.75rem"
             style={{
               background: "rgb(4,7,29)",

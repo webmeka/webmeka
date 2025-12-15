@@ -52,6 +52,20 @@ export default function FooterSection() {
                         </Link>
                     ))}
                 </div>
+                <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
+                   <Link
+                    href="/privacy-policy"
+                    className="text-muted-foreground hover:text-primary block duration-150"
+                    >
+                        <span>Privacy Policy</span>
+                    </Link>
+                    <Link
+                        href="/terms-of-service"
+                        className="text-muted-foreground hover:text-primary block duration-150"
+                    >
+                        <span>Terms of Service</span>
+                    </Link>
+                </div>
                 <div className="mb-8"><SocialLinks /></div>
                 <span className="text-muted-foreground block text-center text-sm mb-4"> Crafted with 🩵 by team webmeka</span>
                 <span className="text-muted-foreground block text-center text-sm"> © 2024 -  {new Date().getFullYear()} WEBMEKA | All rights reserved.</span>

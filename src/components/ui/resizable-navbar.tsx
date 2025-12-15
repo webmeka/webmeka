@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import {
   motion,
@@ -237,19 +238,21 @@ export const MobileNavToggle = ({
 export const NavbarLogo = () => {
   const { visible } = useNavbar();
   return (
-    <a
-      href="#"
-      className="relative z-20 mr-4 flex items-center space-x-2 px-2 text-sm font-normal text-black"
-    >
-      <Image
-        src={visible ? "/Logo-white.svg" : "/Logo.svg"}
-        alt="logo"
-        width={45}
-        height={45}
-        priority
-      />
-      <span className="font-medium tracking-wide text-2xl text-black dark:text-white">WEBMEKA</span>
-    </a>
+   <Link
+  href="/"
+  className="relative z-20 mr-4 flex items-center space-x-2 px-2 text-sm font-normal text-black"
+>
+  <Image
+    src={visible ? "/Logo-white.svg" : "/Logo.svg"}
+    alt="logo"
+    width={45}
+    height={45}
+    priority
+  />
+  <span className="font-medium tracking-wide text-2xl text-black dark:text-white">
+    WEBMEKA
+  </span>
+</Link>
   );
 };
 

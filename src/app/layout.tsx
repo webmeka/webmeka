@@ -3,9 +3,7 @@ import { Geist, Geist_Mono, Fredoka } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import WebmekaNavbar from "@/components/navbar";
 import FooterSection from "@/components/footer";
-import Script from "next/script";
 import "./globals.css";
-import "./christmas.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

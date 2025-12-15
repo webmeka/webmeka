@@ -5,7 +5,7 @@ import { Check } from 'lucide-react'
 
 export default function PricingSection() {
     return (
-        <section id='pricing' className="py-16 md:py-32">
+        <section id='pricing' className="pt-32 pb-15">
             <div className="mx-auto max-w-6xl px-6">
                 <div className="mx-auto max-w-2xl space-y-6 text-center">
                     <h1 className="text-center text-4xl font-semibold lg:text-5xl"><span className="text-webmeka">Transparent Pricing</span> Tailored Solutions</h1>
@@ -23,7 +23,7 @@ export default function PricingSection() {
                         <CardContent className="space-y-4">
                             <hr className="border-dashed" />
 
-                            <ul className="list-outside space-y-3 text-sm">
+                            <ul className="list-outside space-y-3 text-base">
                                 {['1 - 5 Pages', 'Fully Responsive Design', 'Contact Form Integration', 'Basic SEO',  'Cloudflare Security Setup', 'Social Media Integration', '1 Month Maintenance & Support'].map((item, index) => (
                                     <li
                                         key={index}

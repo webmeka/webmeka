@@ -24,7 +24,6 @@ export default function WebmekaNavbar() {
 
   return (
     <Navbar className="top-5">
-      {/* Desktop Navbar */}
       <NavBody className="px-5 py-4">
         <NavbarLogo />
         <NavItems items={navItems} />
@@ -33,7 +32,6 @@ export default function WebmekaNavbar() {
         </div>
       </NavBody>
 
-      {/* Mobile Navbar */}
       <MobileNav className="py-4">
         <MobileNavHeader>
           <NavbarLogo />
