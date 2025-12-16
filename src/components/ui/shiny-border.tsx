@@ -2,7 +2,7 @@
 import React from "react";
 import {
   motion,
-  useAnimationFrame,
+  // useAnimationFrame,
   useMotionTemplate,
   useMotionValue,
   useTransform,
@@ -47,7 +47,7 @@ export function Button({
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 opacity-[0.8] bg-[radial-gradient(#0ff_40%,transparent_60%)]",
+              "h-20 w-30 opacity-[0.8] bg-[radial-gradient(#0ff_40%,transparent_60%)]",
               borderClassName
             )}
           />
@@ -71,7 +71,7 @@ export function Button({
 
 export const MovingBorder = ({
   children,
-  duration = 2800,
+  // duration = 2800,
   rx,
   ry,
   ...otherProps
@@ -84,14 +84,14 @@ export const MovingBorder = ({
 }) => {
   const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
-
-  useAnimationFrame((time) => {
-    const length = pathRef.current?.getTotalLength();
-    if (length) {
-      const pxPerMillisecond = length / duration;
-      progress.set((time * pxPerMillisecond) % length);
-    }
-  });
+  progress.set(0);
+  // useAnimationFrame((time) => {
+  //   const length = pathRef.current?.getTotalLength();
+  //   if (length) {
+  //     const pxPerMillisecond = length / duration;
+  //     progress.set((time * pxPerMillisecond) % length);
+  //   }
+  // });
 
   const x = useTransform(
     progress,
