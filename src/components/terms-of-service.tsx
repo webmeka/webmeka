@@ -88,57 +88,9 @@ const TermsOfService = () => {
           </p>
         </div>
 
-            <div>
-                <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            6. Domain and Hosting
-                </h3>
-
-                <ul className="list-disc pl-5 space-y-3">
-                    <li>
-                    Unless expressly stated in a Statement of Work (SOW), webmeka does not act as
-                    the domain registrar or hosting provider. Domain registration, hosting, and
-                    related infrastructure services are provided by third-party vendors selected
-                    by the client.
-                    </li>
-
-                    <li>
-                    Ownership of domain names, hosting accounts, and associated credentials
-                    remains with the client at all times, even where webmeka assists with setup,
-                    configuration, or ongoing management.
-                    </li>
-
-                    <li>
-                    The client is responsible for maintaining active subscriptions, renewals,
-                    billing details, and compliance with the terms of any third-party domain or
-                    hosting provider, unless otherwise specified in an active maintenance
-                    agreement.
-                    </li>
-
-                    <li>
-                    Where the client subscribes to a webmeka Maintenance Service, webmeka will
-                    make reasonable efforts to monitor domain and hosting expiration dates and
-                    provide advance renewal reminders to the client using the contact details
-                    provided.
-                    </li>
-
-                    <li>
-                    The Maintenance Service does not transfer ownership of domains or hosting to
-                    webmeka, nor does it guarantee uninterrupted service. Final responsibility
-                    for renewal approvals, payments, and account access remains with the client.
-                    </li>
-
-                    <li>
-                    webmeka shall not be liable for downtime, suspension, data loss, or service
-                    interruptions caused by third-party providers, failed payments, expired
-                    services, or factors outside our direct control, except where such issues are
-                    directly caused by our gross negligence or willful misconduct.
-                    </li>
-                </ul>
-                </div>
-
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            7. Your Responsibilities
+            6. Your Responsibilities
           </h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>Provide timely access to required information and resources</li>
@@ -150,7 +102,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            8. Fees and Payment
+            7. Fees and Payment
           </h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>Fees are quoted in KES</li>
@@ -174,7 +126,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            9. Term and Termination
+            8. Term and Termination
           </h3>
           <p>
             Either party may terminate according to the terms outlined in the applicable
@@ -184,7 +136,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            10. Confidentiality
+            9. Confidentiality
           </h3>
           <p>
             Both parties agree to protect confidential information and use it solely for
@@ -194,7 +146,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            11. Intellectual Property
+            10. Intellectual Property
           </h3>
           <p>
             Pre-existing materials remain our property. Upon full payment, you receive
@@ -204,7 +156,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            12. Representations and Warranties
+            11. Representations and Warranties
           </h3>
           <p>
             Services are provided professionally, without additional warranties beyond
@@ -214,7 +166,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            13. Limitation of Liability
+            12. Limitation of Liability
           </h3>
           <p>
             To the maximum extent permitted by law, webmeka shall not be liable for
@@ -224,7 +176,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            14. Indemnification
+            13. Indemnification
           </h3>
           <p>
             Each party agrees to indemnify the other against claims arising from misuse
@@ -234,7 +186,7 @@ const TermsOfService = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-3 text-neutral-200">
-            15. Independent Contractor
+            14. Independent Contractor
           </h3>
           <p>
             webmeka acts as an independent contractor and not as an employee or partner.

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import {
   motion,
   useAnimationFrame,
@@ -84,18 +84,15 @@ export const MovingBorder = ({
 }) => {
   const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
-
-useEffect(() => {
-  const length = pathRef.current?.getTotalLength();
-  if (length) progress.set(0);
-}, []);
-  // useAnimationFrame((time) => {
-  //   const length = pathRef.current?.getTotalLength();
-  //   if (length) {
-  //     const pxPerMillisecond = length / duration;
-  //     progress.set((time * pxPerMillisecond) % length);
-  //   }
-  // });
+  const isFrozen = useRef(true);
+  useAnimationFrame((time) => {
+    if (isFrozen.current) return;
+    const length = pathRef.current?.getTotalLength();
+    if (length) {
+      const pxPerMillisecond = length / duration;
+      progress.set((time * pxPerMillisecond) % length);
+    }
+  });
 
   const x = useTransform(
     progress,
