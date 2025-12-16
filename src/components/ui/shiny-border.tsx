@@ -1,8 +1,8 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   motion,
-  // useAnimationFrame,
+  useAnimationFrame,
   useMotionTemplate,
   useMotionValue,
   useTransform,
@@ -71,7 +71,7 @@ export function Button({
 
 export const MovingBorder = ({
   children,
-  // duration = 2800,
+  duration = 2800,
   rx,
   ry,
   ...otherProps
@@ -84,7 +84,11 @@ export const MovingBorder = ({
 }) => {
   const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
-  progress.set(0);
+
+useEffect(() => {
+  const length = pathRef.current?.getTotalLength();
+  if (length) progress.set(0);
+}, []);
   // useAnimationFrame((time) => {
   //   const length = pathRef.current?.getTotalLength();
   //   if (length) {
