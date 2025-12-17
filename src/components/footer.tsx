@@ -5,7 +5,7 @@ import SocialLinks from "@/components/ui/socials"
 const links = [
     {
         title: 'Services',
-        href: '#services',
+        href: '/servics',
     },
     {
         title: 'Contact',
