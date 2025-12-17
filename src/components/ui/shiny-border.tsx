@@ -17,6 +17,7 @@ export function Button({
   containerClassName,
   borderClassName,
   duration,
+  paused = false,
   className,
   ...otherProps
 }: {
@@ -26,6 +27,7 @@ export function Button({
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
+  paused?: boolean;
   className?: string;
   [key: string]: any;
 }) {
@@ -44,10 +46,10 @@ export function Button({
         className="absolute inset-0 rounde-[1.75rem]"
         style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
-        <MovingBorder duration={duration} rx="30%" ry="30%">
+        <MovingBorder duration={duration} rx="30%" ry="30%" paused={paused}>
           <div
             className={cn(
-              "h-20 w-30 opacity-[0.8] bg-[radial-gradient(#0ff_40%,transparent_60%)]",
+              "h-20 w-35 opacity-[0.8] bg-[radial-gradient(#0ff_40%,transparent_60%)]",
               borderClassName
             )}
           />
@@ -72,6 +74,7 @@ export function Button({
 export const MovingBorder = ({
   children,
   duration = 2800,
+  paused = false,
   rx,
   ry,
   ...otherProps
@@ -80,13 +83,18 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
+  paused?: boolean;
   [key: string]: any;
 }) => {
   const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
   useAnimationFrame((time) => {
     // freeze animation
-    if (time > 1200) return;
+    // if (time > 1200) return;
+    if (paused) {
+      progress.set(10);
+      return;
+    }
     const length = pathRef.current?.getTotalLength();
     if (length) {
       const pxPerMillisecond = length / duration;

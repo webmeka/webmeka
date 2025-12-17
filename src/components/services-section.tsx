@@ -3,9 +3,9 @@
 import { WebmekaServices } from "@/data";
 import Image from "next/image";
 import React from 'react'
-import { Button } from './ui/shiny-border';
+import { Button } from '@/components/ui/shiny-border';
 
-const ServicesSection = () => {
+const ServicesSection = ({ paused = true }: { paused?: boolean }) => {
   return (
     <section id="services" className="w-full px-5 md:px-10 lg:px-20 2xl:px-70 pt-10">
         <h2 className="text-4xl text-center font-medium pt-25 mb-10">Our <span className='text-webmeka'>Services</span></h2>
@@ -15,6 +15,7 @@ const ServicesSection = () => {
             key={card.id}
             duration={Math.floor(Math.random() * 18000) + 18000}
             borderRadius="1.75rem"
+            paused={paused}
             style={{
               background: "rgb(4,7,29)",
               backgroundColor:
