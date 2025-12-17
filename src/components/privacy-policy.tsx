@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import Link from "next/link";
+import BackButton from "./ui/back-button";
 
 const PrivacyPolicy = () => {
      useEffect(() => {
@@ -177,14 +177,7 @@ const PrivacyPolicy = () => {
               <div className="pt-10 border-t text-xs text-neutral-500">
           <p>Last Updated: 2025-12-15</p>
         </div>
-      <div className="mt-10 flex justify-center">
-        <Link
-          href="/"
-          className="px-6 py-3 border-2 border-webmeka text-webmeka rounded-full hover:bg-webmeka/10 transition"
-        >
-          Return to Homepage
-        </Link>
-      </div>
+      <BackButton />
     </section>
   );
 };

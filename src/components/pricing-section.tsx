@@ -39,7 +39,7 @@ export default function PricingSection() {
                             <Button
                                 asChild
                                 variant="outline"
-                                className="w-full">
+                                className="w-full rounded-full">
                                 <Link href="">Get Started</Link>
                             </Button>
                         </CardFooter>
@@ -72,7 +72,7 @@ export default function PricingSection() {
                             <CardFooter className="mt-10">
                                 <Button
                                     asChild
-                                    className="w-full">
+                                    className="w-full border-webmeka border-2 bg-transparent text-neutral-300 rounded-full">
                                     <Link href="">Get Started</Link>
                                 </Button>
                             </CardFooter>
@@ -105,7 +105,7 @@ export default function PricingSection() {
                             <Button
                                 asChild
                                 variant="outline"
-                                className="w-full">
+                                className="w-full rounded-full">
                                 <Link href="">Get Started</Link>
                             </Button>
                         </CardFooter>

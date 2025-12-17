@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import Link from "next/link";
+import BackButton from "./ui/back-button";
 
 const TermsOfService = () => {
      useEffect(() => {
@@ -207,15 +207,8 @@ const TermsOfService = () => {
           <p>Last Updated: 2025-12-15</p>
         </div>
 
-      </div>
-            <div className="mt-10 flex justify-center">
-        <Link
-          href="/"
-          className="px-6 py-3 border-2 border-webmeka text-webmeka rounded-full hover:bg-webmeka/10 transition"
-        >
-          Return to Homepage
-        </Link>
-      </div>
+        </div>
+        <BackButton />
     </section>
   );
 };

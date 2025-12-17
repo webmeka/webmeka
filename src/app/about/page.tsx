@@ -1,10 +1,10 @@
-import ServicesSection from "@/components/services-section";
+import HeroSectionOne from "@/components/hero-section";
 import BackButton from "@/components/ui/back-button";
 
-export default function WebmekaServices() {
+export default function WebmekaAbout() {
   return (
     <div className="mb-20">
-    <ServicesSection />
+    <HeroSectionOne />
     <BackButton/>
     </div>
   );
