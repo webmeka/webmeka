@@ -17,9 +17,9 @@ export default function WebmekaNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = [
     { name: "Home", link: "#" },
-    { name: "Services", link: "#services" },
-    { name: "Pricing", link: "#pricing" },
-    { name: "Contact", link: "#contact" },
+    { name: "Services", link: "/services" },
+    { name: "Pricing", link: "/pricing" },
+    { name: "Contact", link: "/contact-us" },
   ];
 
   return (
