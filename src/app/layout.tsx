@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fredoka } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import WebmekaNavbar from "@/components/navbar";
+import ScrollToTop from "@/components/ui/scrollToTop";
 import FooterSection from "@/components/footer";
 import "./globals.css";
 
@@ -61,6 +62,7 @@ export default function RootLayout({
             <WebmekaNavbar />
             {children}
             <FooterSection />
+            <ScrollToTop />
           </ThemeProvider>
       </body>
     </html>
