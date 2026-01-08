@@ -6,7 +6,7 @@ import { Check } from 'lucide-react'
 export default function PricingSection() {
     return (
         <section id='pricing' className="pt-32 pb-15">
-            <div className="mx-auto max-w-6xl px-6">
+            <div className="mx-auto max-w-7xl px-6 sm:px-10">
                 <div className="mx-auto max-w-2xl space-y-6 text-center">
                     <h1 className="text-center text-4xl font-semibold lg:text-5xl"><span className="text-webmeka">Transparent Pricing</span> Tailored Solutions</h1>
                     <p>Choose a package that works for you, or contact us for a custom-build solution.</p>
