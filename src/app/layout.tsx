@@ -26,7 +26,7 @@ const fredoka = Fredoka({
 
 export const metadata: Metadata = {
   title: "WEBMEKA",
-  description: "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work.",
+  description: "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work. Based in Kenya.",
     icons: {
     icon: [
       { url: "/favicon.ico" },
