@@ -23,11 +23,38 @@ const fredoka = Fredoka({
   display: "swap",
 });
 
-
 export const metadata: Metadata = {
   title: "WEBMEKA",
-  description: "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work. Based in Kenya.",
-    icons: {
+  description:
+    "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work. Based in Kenya.",
+
+  openGraph: {
+    title: "WEBMEKA",
+    description:
+      "Strategy + Design. Digital experiences that actually work.",
+    url: "https://webmeka.com",
+    siteName: "WEBMEKA",
+    images: [
+      {
+        url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770934336/og_image_lffhhj.webp",
+        width: 1200,
+        height: 630,
+        alt: "WEBMEKA creative design agency",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "WEBMEKA",
+    description:
+      "Strategy + Design. Digital experiences that actually work.",
+    images: ["https://res.cloudinary.com/deudsgjbm/image/upload/v1770934336/og_image_lffhhj.webp"],
+  },
+
+  icons: {
     icon: [
       { url: "/favicon.ico" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
