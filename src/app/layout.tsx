@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "WEBMEKA",
     images: [
       {
-        url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770934336/og_image_lffhhj.webp",
+        url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png",
         width: 1200,
         height: 630,
         alt: "WEBMEKA creative design agency",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "WEBMEKA",
     description:
       "Strategy + Design. Digital experiences that actually work.",
-    images: ["https://res.cloudinary.com/deudsgjbm/image/upload/v1770934336/og_image_lffhhj.webp"],
+    images: ["https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png"],
   },
 
   icons: {
