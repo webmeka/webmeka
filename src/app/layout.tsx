@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Fredoka } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import WebmekaNavbar from "@/components/navbar";
@@ -24,6 +24,7 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://webmeka.com"),
   title: "WEBMEKA",
   description:
     "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work. Based in Kenya.",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     title: "WEBMEKA",
     description:
       "Strategy + Design. Digital experiences that actually work.",
-    url: "https://webmeka.com",
+    url: "/",
     siteName: "WEBMEKA",
     images: [
       {
@@ -69,6 +70,15 @@ export const metadata: Metadata = {
     ],
   },
 };
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  themeColor: "#020618",
+};
+
 
 export default function RootLayout({
   children,

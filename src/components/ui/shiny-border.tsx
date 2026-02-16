@@ -73,7 +73,7 @@ export function Button({
 
 export const MovingBorder = ({
   children,
-  duration = 2800,
+  duration = 600,
   paused = false,
   rx,
   ry,
@@ -89,8 +89,6 @@ export const MovingBorder = ({
   const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
   useAnimationFrame((time) => {
-    // freeze animation
-    // if (time > 1200) return;
     if (paused) {
       progress.set(10);
       return;
