@@ -99,6 +99,7 @@ export default function Features() {
                                         alt={images[activeItem].alt}
                                         width={1207}
                                         height={929}
+                                        priority
                                     />
                                 </motion.div>
                             </AnimatePresence>
