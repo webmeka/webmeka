@@ -21,7 +21,7 @@ const ContactPage = () => (
           </p>
           <Link
             className="mt-4 text-primary"
-            href="mailto:akashmoradiya3444@gmail.com"
+            href="mailto:team@webmeka.com"
           >
             team@webmeka.com
           </Link>
