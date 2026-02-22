@@ -49,7 +49,9 @@ pauseBetweenAnimations={1}
           without shouting.
         </p>
 
-        <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+        <p className="text-webmeka mt-2">STRATEGY + DESIGN</p>
+
+        <p className="mt-2 text-neutral-600 dark:text-neutral-400">
           Strategy gives direction. Design gives form. Together, they create
           experiences people remember.
         </p>
