@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { BorderBeam } from '@/components/ui/border-beam'
-import TrueFocus from "@/components/ui/trueFocus";
 
 export default function Features() {
     type ImageKey = 'item-1' | 'item-2' | 'item-3' | 'item-4'
@@ -35,9 +34,9 @@ export default function Features() {
             <div className="absolute inset-0 -z-10 sm:inset-6 sm:rounded-b-3xl dark:block dark:to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]"></div>
             <div className="mx-auto max-w-5xl space-y-8 px-6 dark:[--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
                 <h2 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
-                      <span className="text-webmeka">W</span>HY 
-                      <span className="text-webmeka"> W</span>E 
-                      <span className="text-webmeka"> W</span>EAVE
+                      <span className="text-webmeka">W</span>hy 
+                      <span className="text-webmeka"> W</span>e
+                      <span className="text-webmeka"> W</span>eave
                 </h2>
 
                 <div className="grid gap-12 sm:px-12 md:grid-cols-2 lg:gap-20 lg:px-0">
@@ -62,7 +61,7 @@ export default function Features() {
                                     NOT Enough!
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>But, we realized that even "FULL-STACK" isn't enough to move the needle in today's market. To truly grow a brand, you need more than just a functioning website; you need the full spectrum of design, code, SEO, marketing, and growth strategy.</AccordionContent>
+                            <AccordionContent>But, we realized that even &quot;FULL-STACK&quot; isn&apos;t enough to move the needle in today&apos;s market. To truly grow a brand, you need more than just a functioning website; you need the full spectrum of design, code, SEO, marketing, and growth strategy.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger>

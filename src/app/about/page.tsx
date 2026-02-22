@@ -1,14 +1,17 @@
 "use client";
 
+import { useEffect } from "react";
 import { motion } from "motion/react";
-import Image from "next/image";
 import TrueFocus from "@/components/ui/trueFocus";
 import Features from "@/components/features-12";
 import BackButton from "@/components/ui/back-button";
 
 export default function AboutPage() {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
   return (
-    <section className="relative mx-auto mt-24 flex max-w-7xl flex-col items-center justify-center px-5">
+    <section id="about" className="relative mx-auto my-24 flex max-w-7xl flex-col items-center justify-center px-5">
 <TrueFocus 
 sentence="Team webmeka"
 manualMode={false}
