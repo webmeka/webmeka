@@ -24,7 +24,7 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://webmeka.com"),
+  metadataBase: new URL("https://webmeka.com/"),
   title: "WEBMEKA",
   description:
     "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work. Based in Kenya.",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "WEBMEKA",
     description:
       "Strategy + Design. Digital experiences that actually work.",
-    images: ["https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png"],
+    images: [ { url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png" }],
   },
 
   icons: {
