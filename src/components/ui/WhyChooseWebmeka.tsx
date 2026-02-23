@@ -25,7 +25,7 @@ export function WhyChooseWebmeka() {
     {
       title: "Collaborative Approach",
       description:
-        "We co-create with our clients, your ideas shape our creative process.",
+        "We co-create with our clients. Your ideas shape our creative process.",
       icon: <IconHeartHandshake size={38} />,
     },
     {
