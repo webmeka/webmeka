@@ -13,7 +13,7 @@ export function WhyChooseWebmeka() {
     {
       title: "Strategic Creativity",
       description:
-        "We blend art and strategy to make your brand stand out. With purpose and clarity.",
+        "We blend art and strategy to make your brand stand out with purpose and clarity.",
       icon: <IconRocket size={38} />,
     },
       {
