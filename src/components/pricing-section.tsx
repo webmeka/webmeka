@@ -58,7 +58,7 @@ export default function PricingSection() {
                             <CardContent className="space-y-4">
                                 <hr className="border-dashed" />
                                 <ul className="list-outside space-y-3 text-sm">
-                                    {['Everything in Starter Package', '5 - 10 Pages', 'Blog Integration', 'CMS Integration', 'Google Analytics Integration', 'Standard SEO', 'Basic Logo & Business Card Design', '3 Month Mantainance & Support'].map((item, index) => (
+                                    {['Everything in Starter Package', '5 - 10 Pages', 'Blog Integration', 'CMS Integration', 'Google Analytics Integration', 'Standard SEO', 'Basic Logo & Business Card Design', '3 Month Maintenance & Support'].map((item, index) => (
                                         <li
                                             key={index}
                                             className="flex items-center gap-2">
