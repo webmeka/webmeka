@@ -70,7 +70,7 @@ export default function Features() {
                                     Enter the webmeka
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>When development meets creative design and strategic growth, a new kind of creator emerges: the WEBMEKA. Weaving with the same passion spiders weave their web!</AccordionContent>
+                            <AccordionContent>When development meets creative design and strategic growth, a new kind of creator emerges: the WEBMEKA. Weaving brands with the same passion spiders weave their web!</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>
