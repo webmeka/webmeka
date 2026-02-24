@@ -16,7 +16,7 @@ import SocialLinks from "@/components/ui/socials"
 export default function WebmekaNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = [
-    { name: "Home", link: "#" },
+    { name: "About", link: "/about" },
     { name: "Services", link: "/services" },
     { name: "Pricing", link: "/pricing" },
     { name: "Contact", link: "/contact-us" },
