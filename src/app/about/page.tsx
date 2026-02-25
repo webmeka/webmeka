@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <section id="about" className="relative mx-auto my-24 flex max-w-7xl flex-col items-center justify-center px-5">
 <TrueFocus 
-sentence="Team webmeka"
+sentence="TEAM WEBMEKA"
 manualMode={false}
 blurAmount={5}
 borderColor="#00FFFF"
