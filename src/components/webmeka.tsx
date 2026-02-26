@@ -101,7 +101,7 @@ export default function Features() {
                                         width={1207}
                                         height={929}
                                         preload={true}
-                                        priority
+                                        loading='eager'
                                     />
                                 </motion.div>
                             </AnimatePresence>

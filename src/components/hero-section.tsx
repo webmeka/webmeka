@@ -104,7 +104,7 @@ export default function HeroSectionOne() {
               sizes="(max-width: 768px) 100vw, 40vw"
               height={800}
               width={1000}
-              priority
+              preload={true}
             />
           </div>
         </motion.div>
