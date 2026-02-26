@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { motion } from "motion/react";
 import TrueFocus from "@/components/ui/trueFocus";
-import Features from "@/components/features-12";
+import Features from "@/components/webmeka";
 import BackButton from "@/components/ui/back-button";
 
 export default function AboutPage() {

@@ -101,6 +101,7 @@ export default function HeroSectionOne() {
               src="/webmeka-grow.webp"
               alt="Landing page preview"
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
+              sizes="(max-width: 768px) 100vw, 40vw"
               height={800}
               width={1000}
               priority

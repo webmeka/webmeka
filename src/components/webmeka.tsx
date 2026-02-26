@@ -25,7 +25,7 @@ export default function Features() {
         },
         'item-4': {
             image: 'https://res.cloudinary.com/deudsgjbm/image/upload/w_1207/v1771373788/4_ygqi8r.png',
-            alt: 'Webmeka logo official variation on dark background',
+            alt: 'Webmeka official Logo. white and on dark background',
         },
     }
 
@@ -100,6 +100,7 @@ export default function Features() {
                                         alt={images[activeItem].alt}
                                         width={1207}
                                         height={929}
+                                        preload={true}
                                         priority
                                     />
                                 </motion.div>
