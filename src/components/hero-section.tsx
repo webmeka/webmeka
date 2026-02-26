@@ -105,6 +105,7 @@ export default function HeroSectionOne() {
               height={800}
               width={1000}
               preload={true}
+              loading='eager'
             />
           </div>
         </motion.div>
