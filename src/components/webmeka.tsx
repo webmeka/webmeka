@@ -35,9 +35,9 @@ export default function Features() {
 
     return (
         <div className="py-12 md:py-20 lg:py-32">
-            <div className="absolute inset-0 -z-10 sm:inset-6 sm:rounded-b-3xl dark:block dark:to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]"></div>
-            <div className="mx-auto max-w-5xl space-y-8 px-6 dark:[--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
-                <h2 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
+            <div className="absolute inset-0 -z-10 sm:inset-6 sm:rounded-b-3xl block to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]"></div>
+            <div className="mx-auto max-w-5xl space-y-8 px-6 [--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
+                <h2 className="text-2xl font-semibold text-neutral-100">
                       <span className="text-webmeka">W</span>hy 
                       <span className="text-webmeka"> W</span>e
                       <span className="text-webmeka"> W</span>eave
@@ -100,7 +100,7 @@ export default function Features() {
                                     className="size-full overflow-hidden rounded-2xl border bg-zinc-900 shadow-md">
                                     <Image
                                         src={images[activeItem].image}
-                                        className="size-full object-cover object-left-top dark:mix-blend-lighten"
+                                        className="size-full object-cover object-left-top mix-blend-lighten"
                                         alt={images[activeItem].alt}
                                         width={1207}
                                         height={929}
@@ -114,7 +114,7 @@ export default function Features() {
                         <BorderBeam
                             duration={6}
                             size={200}
-                            className="from-transparent via-yellow-700 to-transparent dark:via-white/50"
+                            className="from-transparent via-yellow-700 to-transparent via-white/50"
                         />
                     </div>
                 </div>

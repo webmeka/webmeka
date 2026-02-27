@@ -9,10 +9,10 @@ export default function HeroSectionOne() {
   return (
     <section id="WebmekaHero" role="region" aria-label="Webmeka hero section" className="relative mx-auto mt-30 md:mt-18 flex max-w-7xl flex-col items-center justify-center">
 
-      <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80 md:-translate-x-[9vw]">
+      <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-800/80 md:-translate-x-[9vw]">
         <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-webmeka to-transparent" />
       </div>
-      <div className="absolute inset-y-0 right-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80 md:translate-x-[9vw]">
+      <div className="absolute inset-y-0 right-0 h-full w-px bg-neutral-800/80 md:translate-x-[9vw]">
         <div className="absolute h-40 w-px bg-gradient-to-b from-transparent via-webmeka to-transparent" />
       </div>
       <div className="px-4 pt-10 md:pt-20">
@@ -46,7 +46,7 @@ export default function HeroSectionOne() {
             duration: 0.3,
             delay: 0.8,
           }}
-          className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
+          className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-400"
         >
         Webmeka is a team of passionate creatives. We blend strategic thinking with stunning designs to bring <span className="font-semibold underline">your brand</span> to life.
         </motion.p>
@@ -69,7 +69,7 @@ export default function HeroSectionOne() {
       behavior: "smooth",
     })
   }
-          className="w-60 md:w-40 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200" aria-label="Explore Webmeka services button">
+          className="w-60 md:w-40 transform rounded-lg px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5 bg-white text-black hover:bg-gray-200" aria-label="Explore Webmeka services button">
             Explore Now
           </button>
           <button 
@@ -78,7 +78,7 @@ export default function HeroSectionOne() {
       behavior: "smooth",
     })
   }
-          className="w-40 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900" aria-label="Contact Webmeka team button">
+          className="w-40 transform rounded-lg border px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5 border-gray-700 bg-black text-white hover:bg-gray-900" aria-label="Contact Webmeka team button">
             Contact Us
           </button>
         </motion.div>
@@ -95,11 +95,12 @@ export default function HeroSectionOne() {
             duration: 0.3,
             delay: 1.2,
           }}
-          className="relative z-10 mt-20 rounded-3xl border border-neutral-200 bg-neutral-100 p-4 shadow-md dark:border-neutral-800 dark:bg-neutral-900"
+          className="relative z-10 mt-20 rounded-3xl border p-4 shadow-md border-neutral-800 bg-neutral-900"
         >
-          <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
+          <div className="w-full overflow-hidden rounded-xl border border-gray-700">
             <Image
               src={bannerImage}
+              aria-label="steer your brand growth banner image"
               alt="Webmeka hero section banner image - steer your brand growth"
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               sizes="(max-width: 768px) 100vw, 40vw"

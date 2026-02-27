@@ -43,7 +43,7 @@ export default function WebmekaNavbar() {
               key={i}
               href={item.link}
               onClick={() => setIsOpen(false)}
-              className="block text-lg text-neutral-700 dark:text-neutral-200"
+              className="block text-lg text-neutral-200"
             >
               {item.name}
             </a>

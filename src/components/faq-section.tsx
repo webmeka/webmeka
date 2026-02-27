@@ -49,7 +49,7 @@ export default function WebmekaFAQs() {
                     <Accordion
                         type="single"
                         collapsible
-                        className="bg-card ring-muted w-full rounded-2xl border px-8 py-3 shadow-sm ring-4 dark:ring-0">
+                        className="bg-card ring-muted w-full rounded-2xl border px-8 py-3 shadow-sm ring-0">
                         {faqItems.map((item) => (
                             <AccordionItem
                                 key={item.id}
@@ -67,6 +67,7 @@ export default function WebmekaFAQs() {
                         Can&#39;t find what you&#39;re looking for? Contact our{' '}
                         <Link
                             href="#contact"
+                            aria-label="Webmeka team contact link"
                             className="text-webmeka font-medium hover:underline">
                              team
                         </Link>

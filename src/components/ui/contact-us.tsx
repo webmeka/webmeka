@@ -12,7 +12,7 @@ const ContactPage = () => (
       </p>
       <div className="max-w-7xl mx-auto py-26 grid lg:grid-cols-3 gap-16 md:gap-10 px-6 md:px-0">
         <div className="text-center flex flex-col items-center">
-          <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
+          <div className="h-12 w-12 flex items-center justify-center bg-primary/10 text-primary rounded-full">
             <MailIcon />
           </div>
           <h3 className="mt-6 font-medium text-xl">Email</h3>
@@ -28,7 +28,7 @@ const ContactPage = () => (
           </Link>
         </div>
         <div className="text-center flex flex-col items-center">
-      <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
+      <div className="h-12 w-12 flex items-center justify-center bg-primary/10 text-primary rounded-full">
         <MessageCircleIcon />
       </div>
       <h3 className="mt-6 font-medium text-xl">WhatsApp</h3>
@@ -46,7 +46,7 @@ const ContactPage = () => (
       </Link>
     </div>
         <div className="text-center flex flex-col items-center">
-          <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
+          <div className="h-12 w-12 flex items-center justify-center bg-primary/10 text-primary rounded-full">
             <PhoneIcon />
           </div>
           <h3 className="mt-6 font-medium text-xl">Phone</h3>

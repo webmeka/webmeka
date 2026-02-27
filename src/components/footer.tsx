@@ -31,7 +31,7 @@ export default function FooterSection() {
             <div className="mx-auto max-w-5xl px-6">
                 <Link
                     href="/"
-                    aria-label="go home."
+                    aria-label="webmeka logo - click to go back to homepage"
                     className="mx-auto block size-fit">
                     <Image
                     src="/Logo.svg"
@@ -45,6 +45,7 @@ export default function FooterSection() {
                     {links.map((link, index) => (
                         <Link
                             key={index}
+                            aria-label='Footer links to webmeka pages'
                             href={link.href}
                             className="text-muted-foreground hover:text-primary block duration-150">
                             <span>{link.title}</span>
@@ -54,12 +55,14 @@ export default function FooterSection() {
                 <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
                    <Link
                     href="/privacy-policy"
+                    aria-label='link to webmeka privacy policy page'
                     className="text-muted-foreground hover:text-primary block duration-150"
                     >
                         <span>Privacy Policy</span>
                     </Link>
                     <Link
                         href="/terms-of-service"
+                        aria-label='link to webmeka terms of service page'
                         className="text-muted-foreground hover:text-primary block duration-150"
                     >
                         <span>Terms of Service</span>
