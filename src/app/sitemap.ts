@@ -1,36 +1,55 @@
 import type { MetadataRoute } from 'next'
  
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://webmeka.com';
   return [
     {
-      url: 'https://webmeka.com',
+      url: baseUrl + '/',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://webmeka.com/services',
+      url: baseUrl + '/services',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://webmeka.com/pricing',
+      url: baseUrl + '/about',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: baseUrl + '/pricing',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
     },
        {
-      url: 'https://webmeka.com/contact',
+      url: baseUrl + '/contact',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: baseUrl + '/faqs',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
     },
-    {
-      url: 'https://webmeka.com/faqs',
+        {
+      url: baseUrl + '/terms-of-service',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.5,
+      priority: 0.4,
+    },
+        {
+      url: baseUrl + '/privacy-policy',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.4,
     },
   ]
 }

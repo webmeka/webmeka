@@ -27,6 +27,18 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   metadataBase: new URL("https://webmeka.com/"),
   title: "WEBMEKA",
+  keywords: [
+    "web design agency",
+    "digital creative agency",
+    "web development company",
+    "UI/UX design",
+    "branding services",
+    "digital strategy",
+    "Nairobi based web design",
+    "responsive web design",
+    "e-commerce development",
+    "SEO services",
+  ],
   description:
     "WEBMEKA is a strategy-driven digital creative agency where insight meets design. We help brands grow by combining clear strategy, thoughtful design, and modern web technology to create digital experiences that work. Based in Kenya.",
 
@@ -50,6 +62,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
+    creator: "@webmeka",
     title: "WEBMEKA",
     description:
       "Strategy + Design. Digital experiences that actually work.",
@@ -63,13 +76,8 @@ export const metadata: Metadata = {
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
-    other: [
-      {
-        rel: "manifest",
-        url: "/site.webmanifest",
-      },
-    ],
   },
+  manifest: "/manifest.webmanifest",
 };
 
 export const viewport: Viewport = {

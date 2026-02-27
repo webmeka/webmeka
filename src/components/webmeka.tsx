@@ -114,7 +114,7 @@ export default function Features() {
                         <BorderBeam
                             duration={6}
                             size={200}
-                            className="from-transparent via-yellow-700 to-transparent via-white/50"
+                            className="from-transparent to-transparent via-white/50"
                         />
                     </div>
                 </div>
