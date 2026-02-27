@@ -52,7 +52,7 @@ export default function Features() {
                                     The myth of Enough!
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>In the digital world, roles are often split. A FRONTEND DESIGNER handles the visuals. A BACKEND DEVELOPER handles the code. If you master both, you become a FULL-STACK DEVELOPER.</AccordionContent>
+                            <AccordionContent>In the digital world, roles are often split. A FRONTEND DESIGNER handles the visuals. A BACKEND DEVELOPER handles the code. Master both and you become a FULL-STACK DEVELOPER.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>
