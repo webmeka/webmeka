@@ -7,7 +7,7 @@ import bannerImage from "../../public/webmeka-grow.webp";
 
 export default function HeroSectionOne() {
   return (
-    <section id="WebmekaHero" role="region" aria-label="Webmeka hero section" className="relative mx-auto mt-32 md:mt-18 flex max-w-7xl flex-col items-center justify-center">
+    <section id="WebmekaHero" role="region" aria-label="Webmeka hero section" className="relative mx-auto mt-30 md:mt-18 flex max-w-7xl flex-col items-center justify-center">
 
       <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80 md:-translate-x-[9vw]">
         <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-webmeka to-transparent" />

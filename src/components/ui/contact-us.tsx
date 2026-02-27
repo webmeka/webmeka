@@ -10,7 +10,7 @@ const ContactPage = () => (
       <p className="mt-4 text-base sm:text-lg text-muted-foreground">
         Our friendly team is always here to chat.
       </p>
-      <div className="max-w-(--breakpoint-xl) mx-auto py-26 grid lg:grid-cols-3 gap-16 md:gap-10 px-6 md:px-0">
+      <div className="max-w-7xl mx-auto py-26 grid lg:grid-cols-3 gap-16 md:gap-10 px-6 md:px-0">
         <div className="text-center flex flex-col items-center">
           <div className="h-12 w-12 flex items-center justify-center bg-primary/5 dark:bg-primary/10 text-primary rounded-full">
             <MailIcon />
@@ -22,6 +22,7 @@ const ContactPage = () => (
           <Link
             className="mt-4 text-primary"
             href="mailto:team@webmeka.com"
+            aria-label="Contact team webmeka via Email"
           >
             team@webmeka.com
           </Link>
@@ -38,8 +39,10 @@ const ContactPage = () => (
         className="mt-4 text-primary"
         href="https://wa.me/254727756658"
         target="_blank"
+        aria-label="Chat with us on WhatsApp"
+        rel="noopener noreferrer"
       >
-        +254 727 756-658
+        +254 727 756 658
       </Link>
     </div>
         <div className="text-center flex flex-col items-center">
@@ -51,8 +54,9 @@ const ContactPage = () => (
           <Link
             className="mt-4 text-primary"
             href="tel:+254792823034"
+            about="Contact team webmeka via a phone call"
           >
-            +254 792 823-034
+            +254 792 823 034
           </Link>
         </div>
       </div>
