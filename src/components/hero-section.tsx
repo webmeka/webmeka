@@ -3,10 +3,11 @@
 
 import { motion } from "motion/react";
 import Image from "next/image";
+import bannerImage from "../../public/webmeka-grow.webp";
 
 export default function HeroSectionOne() {
   return (
-    <section id="WebmekaHero" className="relative mx-auto mt-30 md:mt-18 flex max-w-7xl flex-col items-center justify-center">
+    <section id="WebmekaHero" role="region" aria-label="Webmeka hero section" className="relative mx-auto mt-32 md:mt-18 flex max-w-7xl flex-col items-center justify-center">
 
       <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80 md:-translate-x-[9vw]">
         <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-webmeka to-transparent" />
@@ -68,7 +69,7 @@ export default function HeroSectionOne() {
       behavior: "smooth",
     })
   }
-          className="w-60 md:w-40 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
+          className="w-60 md:w-40 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200" aria-label="Explore Webmeka services button">
             Explore Now
           </button>
           <button 
@@ -77,7 +78,7 @@ export default function HeroSectionOne() {
       behavior: "smooth",
     })
   }
-          className="w-40 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+          className="w-40 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900" aria-label="Contact Webmeka team button">
             Contact Us
           </button>
         </motion.div>
@@ -98,13 +99,14 @@ export default function HeroSectionOne() {
         >
           <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
             <Image
-              src="/webmeka-grow.webp"
-              alt="Landing page preview"
+              src={bannerImage}
+              alt="Webmeka hero section banner image - steer your brand growth"
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               sizes="(max-width: 768px) 100vw, 40vw"
               height={800}
               width={1000}
               preload={true}
+              placeholder='blur'
               loading='eager'
             />
           </div>

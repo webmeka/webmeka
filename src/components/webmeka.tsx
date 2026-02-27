@@ -5,6 +5,10 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { BorderBeam } from '@/components/ui/border-beam'
+import logo1 from '../../public/logo/1.webp'
+import logo2 from '../../public/logo/2.webp'
+import logo3 from '../../public/logo/3.webp'
+import logo4 from '../../public/logo/4.webp'
 
 export default function Features() {
     type ImageKey = 'item-1' | 'item-2' | 'item-3' | 'item-4'
@@ -12,19 +16,19 @@ export default function Features() {
 
     const images = {
         'item-1': {
-            image: '/logo/1.webp',
+            image: logo1,
             alt: 'Webmeka logo variation 1',
         },
         'item-2': {
-            image: '/logo/2.webp',
+            image: logo2,
             alt: 'Webmeka logo variation 2',
         },
         'item-3': {
-            image: '/logo/3.webp',
+            image: logo3,
             alt: 'Webmeka logo variation 3',
         },
         'item-4': {
-            image: '/logo/4.webp',
+            image: logo4,
             alt: 'Webmeka official Logo. white and on dark background',
         },
     }
@@ -101,7 +105,8 @@ export default function Features() {
                                         width={1207}
                                         height={929}
                                         preload={true}
-                                        loading='eager'
+                                        placeholder="blur"
+                                        loading="eager"
                                     />
                                 </motion.div>
                             </AnimatePresence>

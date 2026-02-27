@@ -27,7 +27,7 @@ const links = [
 
 export default function FooterSection() {
     return (
-        <footer className="pb-16 md:py-28">
+        <footer aria-label="Webmeka footer" className="pb-16 md:py-28">
             <div className="mx-auto max-w-5xl px-6">
                 <Link
                     href="/"
@@ -35,10 +35,9 @@ export default function FooterSection() {
                     className="mx-auto block size-fit">
                     <Image
                     src="/Logo.svg"
-                    alt="Webmeka Logo."
+                    alt="Webmeka Logo in footer section."
                     width={80}
                     height={80}
-                    priority
                     />
                 </Link>
 
