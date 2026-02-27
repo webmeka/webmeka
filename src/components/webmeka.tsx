@@ -12,19 +12,19 @@ export default function Features() {
 
     const images = {
         'item-1': {
-            image: 'https://res.cloudinary.com/deudsgjbm/image/upload/w_1207,f_auto,q_auto/v1771404342/1_owtqwc.webp',
+            image: '/logo/1.webp',
             alt: 'Webmeka logo variation 1',
         },
         'item-2': {
-            image: 'https://res.cloudinary.com/deudsgjbm/image/upload/w_1207,f_auto,q_auto/v1771404342/2_b0livs.webp',
+            image: '/logo/2.webp',
             alt: 'Webmeka logo variation 2',
         },
         'item-3': {
-            image: 'https://res.cloudinary.com/deudsgjbm/image/upload/w_1207,f_auto,q_auto/v1771404343/3_s8fuhd.webp',
+            image: '/logo/3.webp',
             alt: 'Webmeka logo variation 3',
         },
         'item-4': {
-            image: 'https://res.cloudinary.com/deudsgjbm/image/upload/w_1207/v1771373788/4_ygqi8r.png',
+            image: '/logo/4.webp',
             alt: 'Webmeka official Logo. white and on dark background',
         },
     }

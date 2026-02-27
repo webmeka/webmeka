@@ -12,20 +12,26 @@ export default function manifest(): MetadataRoute.Manifest {
     display: 'standalone',
     categories: ['design', 'business', 'productivity'],
     background_color: '#000000',
-    theme_color: '#000000',
+    theme_color: '#00FFFF',
     icons: [
-      {
-        src: '/icon-192x192.png',
-        sizes: '192x192',
-        type: 'image/png',
-        purpose: 'any maskable',
-      },
-      {
-        src: '/icon-512x512.png',
-        sizes: '512x512',
-        type: 'image/png',
-        purpose: 'any maskable',
-      },
+       {
+    "purpose": "maskable",
+    "sizes": "1024x1024",
+    "src": "/logo/app_icon.png",
+    "type": "image/png"
+  },
+  {
+    "purpose": "maskable",
+    "sizes": "192x192",
+    "src": "/logo/app_icon_x192.png",
+    "type": "image/png"
+  },
+  {
+    "purpose": "maskable",
+    "sizes": "512x512",
+    "src": "/logo/app_icon_x512.png",
+    "type": "image/png"
+  }
     ],
   }
 }
