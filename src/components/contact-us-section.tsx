@@ -1,5 +1,3 @@
-"use client";
-
 import ContactPage from "@/components/ui/contact-us";
 
 const ContactUsSection = () => {

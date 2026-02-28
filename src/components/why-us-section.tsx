@@ -1,5 +1,3 @@
-"use client";
-
 import { WhyChooseWebmeka } from "@/components/ui/WhyChooseWebmeka";
 
 const ChooseUsSection = () => {
