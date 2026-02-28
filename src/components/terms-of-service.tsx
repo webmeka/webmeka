@@ -1,12 +1,6 @@
-"use client";
-
-import { useEffect } from "react";
 import BackButton from "./ui/back-button";
 
 const TermsOfService = () => {
-     useEffect(() => {
-    window.scrollTo({ top: 0 });
-  }, []);
   return (
     <section
       id="terms"

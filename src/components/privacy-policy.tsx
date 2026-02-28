@@ -1,12 +1,6 @@
-"use client";
-
-import { useEffect } from "react";
 import BackButton from "./ui/back-button";
 
 const PrivacyPolicy = () => {
-     useEffect(() => {
-    window.scrollTo({ top: 0 });
-  }, []);
   return (
     <section
       id="privacy"
@@ -171,7 +165,6 @@ const PrivacyPolicy = () => {
         <ul className="list-disc list-inside text-neutral-300 space-y-1">
           <li>Email: <a href="mailto:team@webmeka.com" className="text-webmeka">team@webmeka.com</a></li>
           <li>Contact Link: <a href="https://webmeka.com/#contact" className="text-webmeka">https://webmeka.com/#contact</a></li>
-          <li>Phone: +254 727 756658</li>
         </ul>
       </div>
               <div className="pt-10 border-t text-xs text-neutral-500">

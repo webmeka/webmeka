@@ -54,7 +54,8 @@ export default function FooterSection() {
                 </div>
                 <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
                    <Link
-                    href="/privacy-policy"
+                    href="/privacy-policy#privacy"
+                    scroll={true}
                     aria-label='link to webmeka privacy policy page'
                     className="text-muted-foreground hover:text-primary block duration-150"
                     >
