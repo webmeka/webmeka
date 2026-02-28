@@ -1,7 +1,3 @@
-"use client";
-
-
-import { motion } from "motion/react";
 import Image from "next/image";
 import bannerImage from "../../public/webmeka-grow.webp";
 
@@ -20,81 +16,34 @@ export default function HeroSectionOne() {
           {"A Creative Design Agency"
             .split(" ")
             .map((word, index) => (
-              <motion.span
+              <span
                 key={index}
-                initial={{ opacity: 0, filter: "blur(4px)", y: 20 }}
-                animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
-                transition={{
-                  duration: 0.3,
-                  delay: index * 0.1,
-                  ease: "easeInOut",
-                }}
                 className="mr-2 inline-block"
               >
                 {word}
-              </motion.span>
+              </span>
             ))}
         </h1>
-        <motion.p
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          transition={{
-            duration: 0.3,
-            delay: 0.8,
-          }}
-          className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-400"
+        <p
+        className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-400"
         >
         Webmeka is a team of passionate creatives. We blend strategic thinking with stunning designs to bring <span className="font-semibold underline">your brand</span> to life.
-        </motion.p>
-        <motion.div
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          transition={{
-            duration: 0.3,
-            delay: 1,
-          }}
+        </p>
+        <div
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
         >
-          <button 
-          onClick={() =>
-    document.querySelector("#services")?.scrollIntoView({
-      behavior: "smooth",
-    })
-  }
-          className="w-60 md:w-40 transform rounded-lg px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5 bg-white text-black hover:bg-gray-200" aria-label="Explore Webmeka services button">
+          <a 
+          href="#services"
+          className="inline-flex items-center justify-center w-58 md:w-40 transform rounded-lg px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5 bg-white text-black hover:bg-gray-200" aria-label="Explore Webmeka services button">
             Explore Now
-          </button>
-          <button 
-          onClick={() =>
-    document.querySelector("#contact")?.scrollIntoView({
-      behavior: "smooth",
-    })
-  }
-          className="w-40 transform rounded-lg border px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5 border-gray-700 bg-black text-white hover:bg-gray-900" aria-label="Contact Webmeka team button">
+          </a>
+          <a 
+          href="#contact"
+          className="inline-flex items-center justify-center w-50 transform rounded-lg border px-6 py-2 font-medium transition-all duration-300 hover:-translate-y-0.5 border-gray-700 bg-black text-white hover:bg-gray-900" aria-label="Contact Webmeka team button">
             Contact Us
-          </button>
-        </motion.div>
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 10,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.3,
-            delay: 1.2,
-          }}
+          </a>
+        </div>
+        <div
           className="relative z-10 mt-20 rounded-3xl border p-4 shadow-md border-neutral-800 bg-neutral-900"
         >
           <div className="w-full overflow-hidden rounded-xl border border-gray-700">
@@ -104,14 +53,11 @@ export default function HeroSectionOne() {
               alt="Webmeka hero section banner image - steer your brand growth"
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               sizes="(max-width: 768px) 100vw, 40vw"
-              height={800}
-              width={1000}
-              preload={true}
               placeholder='blur'
-              loading='eager'
+              priority
             />
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
