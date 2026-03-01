@@ -14,7 +14,7 @@ animationDuration={0.8}
 pauseBetweenAnimations={1}
 />
       <p
-        className="mt-10 max-w-2xl text-center text-lg text-neutral-600 dark:text-neutral-400"
+        className="mt-10 max-w-2xl text-center text-lg text-neutral-400"
       >
         Team Webmeka was born from a simple observation, brands struggle not because
         they lack ideas, but because they lack clarity and creative
@@ -26,11 +26,11 @@ pauseBetweenAnimations={1}
       <div
         className="max-w-2xl text-center"
       >
-        <h2 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
+        <h2 className="text-2xl font-semibold text-neutral-100">
           Our Philosophy
         </h2>
 
-        <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+        <p className="mt-4 text-neutral-400">
           Good design is not decoration. Good design is communication. It
           reduces friction, builds trust, guides attention, and tells a story
           without shouting.
@@ -38,7 +38,7 @@ pauseBetweenAnimations={1}
 
         <p className="text-webmeka mt-2">STRATEGY + DESIGN</p>
 
-        <p className="mt-2 text-neutral-600 dark:text-neutral-400">
+        <p className="mt-2 text-neutral-400">
           Strategy gives direction. Design gives form. Together, they create
           experiences people remember.
         </p>

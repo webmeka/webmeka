@@ -15,8 +15,8 @@ export default function PricingSection() {
                 <div className="mt-8 grid gap-6 md:mt-20 md:grid-cols-3">
                     <Card className="flex flex-col">
                         <CardHeader>
-                            <CardTitle className="font-medium">Starter Package</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">KES 55,000/-</span>
+                            <CardTitle className="font-medium font-mono">Starter Package</CardTitle>
+                            <span className="my-3 block text-2xl font-mono font-semibold">KES 55,000/-</span>
                             <CardDescription className="text-sm">Ideal for startups, small businesses or personal websites.</CardDescription>
                         </CardHeader>
 
@@ -35,7 +35,7 @@ export default function PricingSection() {
                             </ul>
                         </CardContent>
 
-                        <CardFooter className="mt-auto">
+                        <CardFooter className="mt-auto font-mono">
                             <Button
                                 asChild
                                 variant="outline"
@@ -50,8 +50,8 @@ export default function PricingSection() {
 
                         <div className="flex flex-col">
                             <CardHeader>
-                                <CardTitle className="font-medium">Business Package</CardTitle>
-                                <span className="my-3 block text-2xl font-semibold">KES 80,000/-</span>
+                                <CardTitle className="font-medium font-mono">Business Package</CardTitle>
+                                <span className="my-3 block text-2xl font-mono font-semibold">KES 80,000/-</span>
                                 <CardDescription className="text-sm">Optimized for established businesses looking to lead their industry</CardDescription>
                             </CardHeader>
 
@@ -69,7 +69,7 @@ export default function PricingSection() {
                                 </ul>
                             </CardContent>
 
-                            <CardFooter className="mt-10">
+                            <CardFooter className="mt-10 font-mono">
                                 <Button
                                     asChild
                                     className="w-full border-webmeka border-2 bg-transparent text-neutral-300 rounded-full">
@@ -81,8 +81,8 @@ export default function PricingSection() {
 
                     <Card className="flex flex-col">
                         <CardHeader>
-                            <CardTitle className="font-medium">eCommerce Package</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">KES 120,000/-</span>
+                            <CardTitle className="font-medium font-mono">eCommerce Package</CardTitle>
+                            <span className="my-3 block text-2xl font-mono font-semibold">KES 120,000/-</span>
                             <CardDescription className="text-sm">Tailored for Corporations & businesses needing e-commerce</CardDescription>
                         </CardHeader>
 
@@ -101,7 +101,7 @@ export default function PricingSection() {
                             </ul>
                         </CardContent>
 
-                        <CardFooter className="mt-auto">
+                        <CardFooter className="mt-auto font-mono">
                             <Button
                                 asChild
                                 variant="outline"

@@ -100,7 +100,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="dark" suppressHydrationWarning>
       <body suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased font-fredoka`}
+        className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased font-fredoka bg-background text-foreground min-h-screen flex flex-col`}
       >
         <ThemeProvider
             attribute="class"
