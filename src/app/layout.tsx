@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import WebmekaNavbar from "@/components/navbar";
 import ScrollToTop from "@/components/ui/scrollToTop";
 import FooterSection from "@/components/footer";
-import { GoogleTagManager } from '@next/third-parties/google';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -94,7 +93,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="dark" suppressHydrationWarning>
-       <GoogleTagManager gtmId="GTM-NPS38KK3" />
       <body suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased font-fredoka`}
       >
