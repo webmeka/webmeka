@@ -56,7 +56,7 @@ export default function Features() {
                                     The myth of Enough!
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>In the digital world, roles are often split. A FRONTEND DESIGNER handles the visuals. A BACKEND DEVELOPER handles the code. Master both and you become a FULL-STACK DEVELOPER.</AccordionContent>
+                            <AccordionContent className='text-base'>In the digital world, roles are often split. A <b>Frontend designer</b> handles the visuals. A <b>Backend developer</b> handles the code. Master both and you become a <u>Full-stack developer</u>.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>
@@ -65,7 +65,7 @@ export default function Features() {
                                     NOT Enough!
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>But, we realized that even &quot;FULL-STACK&quot; isn&apos;t enough to move the needle in today&apos;s market. To truly grow a brand, you need more than just a functioning website; you need the full spectrum of design, code, SEO, marketing, and growth strategy.</AccordionContent>
+                            <AccordionContent className='text-base'>But, we realized that even &quot;<b>Full-stack</b>&quot; isn&apos;t enough to move the needle in today&apos;s market. To truly grow a brand, you need more than just a functioning website; you need the full spectrum of design, code, SEO, marketing, and growth strategy.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger>
@@ -74,7 +74,7 @@ export default function Features() {
                                     Enter the webmeka
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>When development meets creative design and strategic growth, a new kind of creator emerges: the WEBMEKA. Weaving brands with the same passion spiders weave their web!</AccordionContent>
+                            <AccordionContent className='text-base'>When development meets creative design and strategic growth, a new kind of creator emerges: the <b>WEBMEKA</b>. Weaving brands with the same passion spiders weave their web!</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>
@@ -83,7 +83,7 @@ export default function Features() {
                                     Webmeka studio
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent>We are a Team of such creatives. We partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
+                            <AccordionContent className='text-base'>We are a Team of such creatives. We partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
                         </AccordionItem>
                     </Accordion>
 
