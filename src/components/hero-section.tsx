@@ -54,7 +54,7 @@ export default function HeroSectionOne() {
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               sizes="(max-width: 768px) 100vw, 40vw"
               placeholder='blur'
-              priority
+              fetchPriority="high"
             />
           </div>
         </div>
