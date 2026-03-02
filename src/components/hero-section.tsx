@@ -44,7 +44,7 @@ export default function HeroSectionOne() {
           </a>
         </div>
         <div
-          className="relative z-10 mt-20 rounded-3xl border p-4 shadow-md border-neutral-800 bg-neutral-900"
+          className="relative z-10 mt-20 rounded-3xl border p-3 shadow-md border-neutral-800 bg-neutral-900"
         >
           <div className="w-full overflow-hidden rounded-xl border border-gray-700">
             <Image
