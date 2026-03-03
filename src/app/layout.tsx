@@ -24,29 +24,32 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://webmeka.com/"),
+  metadataBase: new URL("https://webmeka.com"),
+  generator: "Next.js",
   title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
+  applicationName: 'WEBMEKA STUDIO',
+  creator: 'TEAM WEBMEKA',
+  publisher: 'WEBMEKA STUDIO',
   keywords: [
     "web design agency",
-    "digital creative agency",
     "web development company",
     "UI/UX design",
     "branding services",
     "digital strategy",
-    "Nairobi based web design",
     "responsive web design",
-    "e-commerce development",
     "SEO services",
     "software engineering",
-    "digital marketing",
     "creative design agency",
-    "design studio",
     "website mantainance services",
     "social media marketing",
     "social media management",
   ],
   description:
     "WEBMEKA is a strategy-driven creative design agency based in Nairobi, Kenya. The only team your brand needs! specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results. Reach out to our team to get started on your next project and see how we can help you achieve your goals.",
+
+  alternates: {
+    canonical: "/",
+  },
 
   openGraph: {
     title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
