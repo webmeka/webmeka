@@ -26,7 +26,7 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   metadataBase: new URL("https://webmeka.com"),
   generator: "Next.js",
-  title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
+  title: "WEBMEKA - Strategy Driven Creative Design Studio",
   applicationName: 'WEBMEKA STUDIO',
   creator: 'TEAM WEBMEKA',
   publisher: 'WEBMEKA STUDIO',
@@ -57,14 +57,6 @@ export const metadata: Metadata = {
       "WEBMEKA is a strategy-driven digital creative agency in Kenya, specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results.",
     url: "/",
     siteName: "WEBMEKA",
-    images: [
-      {
-        url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png",
-        width: 1200,
-        height: 630,
-        alt: "WEBMEKA creative design agency",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
@@ -75,7 +67,6 @@ export const metadata: Metadata = {
     title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
     description:
       "Strategy + Design. Digital experiences that actually work.",
-    images: [ { url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png" }],
   },
 
   icons: {
