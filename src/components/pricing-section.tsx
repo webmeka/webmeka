@@ -39,7 +39,7 @@ export default function PricingSection() {
                             <Button
                                 asChild
                                 variant="outline"
-                                className="w-full rounded-full hover:scale-105">
+                                className="w-full rounded-full hover:border-webmeka hover:border-2">
                                 <Link href="#contact">Get Started</Link>
                             </Button>
                         </CardFooter>
@@ -105,7 +105,7 @@ export default function PricingSection() {
                             <Button
                                 asChild
                                 variant="outline"
-                                className="w-full rounded-full hover:scale-105">
+                                className="w-full rounded-full hover:border-webmeka hover:border-2">
                                 <Link href="#contact">Get Started</Link>
                             </Button>
                         </CardFooter>
