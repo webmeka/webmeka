@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fredoka } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import WebmekaNavbar from "@/components/navbar";
@@ -85,12 +85,6 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.webmanifest",
 };
-
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-};
-
 
 export default function RootLayout({
   children,
