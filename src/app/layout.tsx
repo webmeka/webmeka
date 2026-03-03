@@ -25,7 +25,7 @@ const fredoka = Fredoka({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://webmeka.com/"),
-  title: "WEBMEKA - Strategy + Design. Digital experiences that actually work.",
+  title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
   keywords: [
     "web design agency",
     "digital creative agency",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "WEBMEKA is a strategy-driven creative design agency based in Nairobi, Kenya. The only team your brand needs! specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results. Reach out to our team to get started on your next project and see how we can help you achieve your goals.",
 
   openGraph: {
-    title: "WEBMEKA - Strategy + Design. Digital experiences that actually work.",
+    title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
     description:
       "WEBMEKA is a strategy-driven digital creative agency in Kenya, specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results.",
     url: "/",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     creator: "@webmeka",
-    title: "WEBMEKA",
+    title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
     description:
       "Strategy + Design. Digital experiences that actually work.",
     images: [ { url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1770936542/webmeka_og_image_inxi5n.png" }],
