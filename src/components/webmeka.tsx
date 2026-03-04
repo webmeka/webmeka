@@ -104,9 +104,7 @@ export default function Features() {
                                         alt={images[activeItem].alt}
                                         width={1207}
                                         height={929}
-                                        preload={true}
                                         placeholder="blur"
-                                        loading="eager"
                                     />
                                 </motion.div>
                             </AnimatePresence>

@@ -67,6 +67,7 @@ export const metadata: Metadata = {
     title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
     description:
       "Strategy + Design. Digital experiences that actually work.",
+    images: ["/opengraph-image.png"],
   },
 
   icons: {
