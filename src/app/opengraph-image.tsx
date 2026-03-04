@@ -9,13 +9,14 @@ export const size = {
 export const contentType = 'image/png';
 
 export default function Image({ params }: { params?: { slug?: string[] } }) {
-    const pageTitle = params?.slug?.[0]?.replace(/-/g, ' ').toUpperCase() || 'CREATIVE DESIGN STUDIO';
+    const pageTitle = params?.slug?.[0]?.replace(/-/g, ' ').toUpperCase() || 'Home';
+    const welcomeLine = `Welcome to our ${pageTitle} page`;
 
     return new ImageResponse(
         (
             <div
                 style={{
-                    background: '#02044a',
+                    background: 'linear-gradient(18deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%)',
                     width: '100%',
                     height: '100%',
                     display: 'flex',
@@ -26,7 +27,7 @@ export default function Image({ params }: { params?: { slug?: string[] } }) {
                     padding: '40px',
                 }}
             >
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', padding: '20px', borderRadius: '20px' }}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 250 250"
@@ -57,6 +58,7 @@ export default function Image({ params }: { params?: { slug?: string[] } }) {
                         fontWeight: 'bold',
                         color: '#00FFFF',
                         textAlign: 'center',
+                        textShadow: '0 6px 0 #000000, 0 6px 0 #000000',
                     }}
                 >
                     WEBMEKA
@@ -68,9 +70,20 @@ export default function Image({ params }: { params?: { slug?: string[] } }) {
                         textAlign: 'center',
                         fontWeight: 'bold',
                         maxWidth: '900px',
+                        textShadow: '0 6px 0 #000000, 0 6px 0 #000000',
                     }}
                 >
-                    {pageTitle}
+                    CREATIVE DESIGN STUDIO
+                </div>
+                <div
+                    style={{
+                        fontSize: '36px',
+                        color: 'white',
+                        textAlign: 'center',
+                        maxWidth: '900px',
+                    }}
+                >
+                    {welcomeLine}
                 </div>
             </div>
         ),
