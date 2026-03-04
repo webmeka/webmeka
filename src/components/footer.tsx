@@ -27,7 +27,7 @@ const links = [
 
 export default function FooterSection() {
     return (
-        <footer aria-label="Webmeka footer" className="pb-16 md:py-28">
+        <footer aria-label="Webmeka footer" className="pb-18 md:py-28">
             <div className="mx-auto max-w-5xl px-6">
                 <Link
                     href="/"
@@ -54,7 +54,7 @@ export default function FooterSection() {
                 </div>
                 <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
                    <Link
-                    href="/privacy-policy#privacy"
+                    href="/privacy-policy"
                     aria-label='link to webmeka privacy policy page'
                     className="text-muted-foreground hover:text-primary block duration-150"
                     >
