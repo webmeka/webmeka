@@ -73,7 +73,7 @@ export default function ContactPage() {
           </div>
           </div>
 
-          <div className="mt-14 lg:mt-10">
+          <div className="mt-14 lg:mt-0">
             <ContactMap />
           </div>
         </div>
