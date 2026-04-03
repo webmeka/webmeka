@@ -10,35 +10,31 @@ export default function ContactForm() {
   })
   const [status, setStatus] = useState("")
 
-  // Encode form data for Netlify
-  const encode = (data: Record<string, string>) =>
-    Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&")
-
-  // Handle input changes
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormState({ ...formState, [e.target.name]: e.target.value })
   }
 
-  // Handle form submission
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setStatus("Sending...")
 
-    const data = { "form-name": "contact", ...formState }
+    const formData = new FormData()
+    formData.append("form-name", "contact")
+    Object.entries(formState).forEach(([key, value]) => formData.append(key, value))
 
     try {
-      await fetch("/", {
+      const res = await fetch("/_form.html", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode(data),
+        body: formData,
       })
+
+      if (!res.ok) throw new Error("Failed to submit")
+
       setStatus("Message sent successfully!")
       setFormState({ name: "", email: "", project: "", message: "" })
     } catch (error) {
-      setStatus("Oops! Something went wrong.")
       console.error(error)
+      setStatus("Oops! Something went wrong.")
     }
   }
 
@@ -60,19 +56,8 @@ export default function ContactForm() {
       <div className="absolute right-24 top-20 h-10 w-10 rounded-md bg-white/5 blur-sm" />
       <div className="absolute left-1/2 top-1/2 h-24 w-24 rounded-full bg-blue-500/10 blur-3xl" />
 
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        onSubmit={handleSubmit}
-        className="relative space-y-6"
-      >
+      <form name="contact" method="POST" onSubmit={handleSubmit} className="relative space-y-6">
         <input type="hidden" name="form-name" value="contact" />
-        <p style={{ display: "none" }}>
-          <label>
-            Don’t fill this out if you’re human: <input name="bot-field" />
-          </label>
-        </p>
 
         <div>
           <label className="mb-2 block text-sm font-medium text-white/80">Your name</label>
@@ -121,6 +106,7 @@ export default function ContactForm() {
             rows={6}
             placeholder="Tell us about your project..."
             className="min-h-[180px] w-full rounded-xl border border-white/10 bg-white/5 px-4 py-4 text-white placeholder:text-white/30 outline-none transition focus:border-blue-500/40 focus:ring-2 focus:ring-blue-500/20"
+            required
           />
         </div>
 
