@@ -6,7 +6,6 @@ export default function ContactMap() {
   return (
     <div className="relative h-[280px] w-full overflow-hidden rounded-[2rem] border border-white/5 sm:h-[320px]">
       
-      {/* Label */}
       <motion.div
         initial={{ opacity: 0, y: -8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -22,13 +21,11 @@ export default function ContactMap() {
       >
         We are here
       </motion.div>
-
-      {/* Beam */}
       <motion.div
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: 130, opacity: 1 }}
         transition={{
-          duration: 0.8,
+          duration: 0.3,
           delay: 0.5,
           repeat: Infinity,
           repeatType: "reverse",
@@ -42,8 +39,6 @@ export default function ContactMap() {
           shadow-[0_0_20px_rgba(59,130,246,0.7)]
         "
       />
-
-      {/* Glow base */}
       <motion.div
         animate={{
           scale: [1, 1.2, 1],
@@ -61,8 +56,6 @@ export default function ContactMap() {
           rounded-full bg-webmeka/40 blur-xl
         "
       />
-
-      {/* Pin center */}
       <div
         className="
           absolute 
@@ -72,8 +65,6 @@ export default function ContactMap() {
           shadow-[0_0_30px_rgba(59,130,246,0.9)]
         "
       />
-
-      {/* Map */}
       <div className="absolute inset-x-0 bottom-0 flex justify-center opacity-50">
         <img
           src="/world.svg"
@@ -87,8 +78,6 @@ export default function ContactMap() {
           "
         />
       </div>
-
-      {/* Fade */}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
     </div>
   )

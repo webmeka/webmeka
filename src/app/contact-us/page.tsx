@@ -41,8 +41,7 @@ export default function ContactPage() {
 
             <p className="mt-6 max-w-xl text-base leading-8 text-white/60 sm:text-lg">
               Have a website idea, redesign project, brand concept, or digital
-              product in mind? Reach out and let’s create something that feels
-              modern, sharp, and unforgettable.
+              product in mind? Reach out and let’s steer your brand growth.
             </p>
 
           <div className="mt-8 flex flex-wrap gap-3 text-sm text-white/70">
