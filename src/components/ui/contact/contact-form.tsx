@@ -1,5 +1,6 @@
 "use client"
 import { useState, ChangeEvent, FormEvent } from "react"
+import GridBackground from "@/components/ui/grid-background"
 
 export default function ContactForm() {
   const [formState, setFormState] = useState({
@@ -52,18 +53,7 @@ export default function ContactForm() {
 
   return (
     <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/[0.04] to-white/[0.02] p-6 sm:p-8">
-      <div
-        className="pointer-events-none absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: `
-            linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px)
-          `,
-          backgroundSize: "28px 28px",
-          maskImage: "radial-gradient(circle at center, black 40%, transparent 100%)",
-          WebkitMaskImage: "radial-gradient(circle at center, black 40%, transparent 100%)",
-        }}
-      />
+      <GridBackground />
       <div className="absolute right-10 top-8 h-14 w-14 rounded-md bg-white/5 blur-sm" />
       <div className="absolute right-24 top-20 h-10 w-10 rounded-md bg-white/5 blur-sm" />
       <div className="absolute left-1/2 top-1/2 h-24 w-24 rounded-full bg-blue-500/10 blur-3xl" />

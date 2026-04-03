@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import GridBackground from "@/components/ui/grid-background"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Check } from 'lucide-react'
 
 export default function PricingSection() {
     return (
-        <section id='pricing' aria-label="Webmeka pricing section" className="pt-32 pb-15">
+        <section id='pricing' aria-label="Webmeka pricing section" className="pt-20 pb-15">
             <div className="mx-auto max-w-7xl px-6 sm:px-10">
                 <div className="mx-auto max-w-2xl space-y-6 text-center">
                     <h1 className="text-center text-4xl font-semibold lg:text-5xl"><span className="text-webmeka">Transparent Pricing</span> Tailored Solutions</h1>
@@ -46,6 +47,7 @@ export default function PricingSection() {
                     </Card>
 
                     <Card className="relative">
+                        <GridBackground />
                         <span className="absolute inset-x-0 -top-3 mx-auto flex h-6 w-fit items-center rounded-full px-3 py-1 bg-webmeka text-xs font-medium text-amber-950 ring-2 ring-webmeka ring-offset-2 ring-offset-card">Popular</span>
 
                         <div className="flex flex-col">
@@ -55,8 +57,7 @@ export default function PricingSection() {
                                 <CardDescription className="text-sm">Optimized for established businesses looking to lead their industry</CardDescription>
                             </CardHeader>
 
-                            <CardContent className="space-y-4">
-                                <hr className="border-dashed" />
+                            <CardContent className="space-y-4 mt-5">
                                 <ul className="list-outside space-y-3 text-sm">
                                     {['Everything in Starter Package', '5 - 10 Pages', 'Blog Integration', 'CMS Integration', 'Google Analytics Integration', 'Standard SEO', 'Basic Logo & Business Card Design', '3 Month Maintenance & Support'].map((item, index) => (
                                         <li
