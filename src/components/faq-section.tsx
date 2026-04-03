@@ -36,7 +36,7 @@ export default function WebmekaFAQs() {
     ]
 
     return (
-        <section id="faqs" aria-label="Webmeka frequently asked questions section" className="pt-20">
+        <section id="faqs" aria-label="Webmeka frequently asked questions section" className="mt-20">
             <div className="mx-auto max-w-5xl px-6 md:px-6">
                 <div className="mx-auto max-w-xl text-center">
                     <h2 className="text-balance font-medium text-3xl md:text-4xl lg:text-5xl">Frequently <br /><span className='text-webmeka'>Asked Questions</span></h2>
