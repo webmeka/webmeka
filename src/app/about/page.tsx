@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import TrueFocus from "@/components/ui/trueFocus";
 import Features from "@/components/webmeka";
-import BackButton from "@/components/ui/back-button";
 
 export const metadata: Metadata = {
   title: "About WEBMEKA | Strategy Driven Creative Design Studio",
@@ -65,8 +64,6 @@ export default function AboutPage() {
           experiences people remember.
         </p>
       </div>
-
-      <BackButton />
     </section>
   );
 }
