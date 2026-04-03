@@ -8,15 +8,19 @@ export default function ContactForm() {
     project: "",
     message: "",
   })
-  const [status, setStatus] = useState("")
 
+  const [status, setStatus] = useState("")
+  const [statusType, setStatusType] = useState<"success" | "error" | "loading" | "">("")
+  const [isSuccess, setIsSuccess] = useState(false)
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormState({ ...formState, [e.target.name]: e.target.value })
   }
-
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+
     setStatus("Sending...")
+    setStatusType("loading")
+    setIsSuccess(false)
 
     const formData = new FormData()
     formData.append("form-name", "contact")
@@ -31,10 +35,18 @@ export default function ContactForm() {
       if (!res.ok) throw new Error("Failed to submit")
 
       setStatus("Message sent successfully!")
+      setStatusType("success")
+      setIsSuccess(true)
+      setTimeout(() => {
+        setIsSuccess(false)
+      }, 2000)
+
       setFormState({ name: "", email: "", project: "", message: "" })
     } catch (error) {
       console.error(error)
       setStatus("Oops! Something went wrong.")
+      setStatusType("error")
+      setIsSuccess(false)
     }
   }
 
@@ -112,12 +124,28 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="inline-flex h-12 items-center justify-center rounded-xl border border-white/10 bg-white/10 px-6 font-medium text-white transition hover:bg-white/15 active:scale-[0.98]"
+          className={`inline-flex h-12 items-center justify-center rounded-xl border px-6 font-medium text-white transition-all duration-300 active:scale-[0.98] ${
+            isSuccess
+              ? "border-green-400/30 bg-green-500 text-white hover:bg-green-500"
+              : "border-white/10 bg-white/10 hover:bg-white/15"
+          }`}
         >
-          Submit
+          {isSuccess ? "Sent ✓" : "Submit"}
         </button>
 
-        {status && <p className="mt-2 text-sm text-white/80">{status}</p>}
+        {status && (
+          <p
+            className={`mt-2 text-sm ${
+              statusType === "success"
+                ? "text-green-400"
+                : statusType === "error"
+                ? "text-red-400"
+                : "text-white/80"
+            }`}
+          >
+            {status}
+          </p>
+        )}
       </form>
     </div>
   )
