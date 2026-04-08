@@ -13,7 +13,7 @@ export default function HeroSectionOne() {
       </div>
       <div className="px-4 pt-10 md:pt-20">
         <h1 className="relative z-10 mx-auto font-bold font-sans max-w-4xl text-neutral-200 text-center text-3xl xs:text-5xl  lg:text-7xl">
-         {"A Creative Design Studio"
+         {"A Creative Design Agency"
             .split(" ")
             .map((word, index) => (
               <span
@@ -27,7 +27,7 @@ export default function HeroSectionOne() {
         <p
         className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-400"
         >
-        Webmeka is a team of passionate creatives. We blend strategic thinking with stunning designs to bring <span className="font-semibold underline">your brand</span> to life.
+        WebMeka is a team of passionate creatives. We blend strategic thinking with stunning designs to bring <span className="font-semibold underline">your brand</span> to life.
         </p>
         <div
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
