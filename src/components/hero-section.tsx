@@ -49,11 +49,9 @@ export default function HeroSectionOne() {
           <div className="w-full overflow-hidden rounded-xl border border-gray-700">
             <Image
               src={bannerImage}
-              fetchPriority="high"
-              placeholder='blur'
+              preload={true}
               className="aspect-[32/9] h-auto md:h-40 w-full object-cover"
               alt="Webmeka hero section banner image - steer your brand growth"
-              aria-label="steer your brand growth banner image"
             />
           </div>
         </div>
