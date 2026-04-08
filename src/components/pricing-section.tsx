@@ -91,7 +91,7 @@ export default function PricingSection() {
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Everything in Business Package', 'Full eCommerce System', 'Mobile & Card payment Intergration', 'CRM Intergration', 'Advanced SEO', '3 Month Mantainance', '1 Year Priority Support'].map((item, index) => (
+                                {['Everything in Business Package', 'Full eCommerce System', 'Mobile & Card payment Integration', 'CRM Integration', 'Advanced SEO', '3 Month Maintenance', '1 Year Priority Support'].map((item, index) => (
                                     <li
                                         key={index}
                                         className="flex items-center gap-2">
