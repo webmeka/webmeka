@@ -69,7 +69,7 @@ export default function FooterSection() {
                     </Link>
                 </div>
                 <div className="mb-8"><SocialLinks /></div>
-                <span className="text-muted-foreground block text-center text-sm mb-4"> Crafted with 🩵 by team Webmeka</span>
+                <span className="text-muted-foreground block text-center text-sm mb-4"> Crafted with 🩵 by Team Webmeka</span>
                 <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} WEBMEKA STUDIO | All rights reserved.</span>
             </div>
         </footer>
