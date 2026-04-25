@@ -27,7 +27,7 @@ export default function HeroSectionOne() {
         <p
         className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-400"
         >
-        WebMeka is a team of passionate creatives. We blend strategic thinking with stunning designs to bring <span className="font-semibold underline">your brand</span> to life.
+        Webmeka is a team of passionate creatives. We blend strategic thinking with stunning designs to bring <span className="font-semibold underline">your brand</span> to life.
         </p>
         <div
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
