@@ -13,7 +13,7 @@ export default function HeroSectionOne() {
       </div>
       <div className="px-4 pt-10 md:pt-20">
         <h1 className="relative z-10 mx-auto font-bold font-sans max-w-4xl text-neutral-200 text-center text-3xl xs:text-5xl  lg:text-7xl">
-         {"Creative Design Agency"
+         {"A Creative Design Agency"
             .split(" ")
             .map((word, index) => (
               <span
