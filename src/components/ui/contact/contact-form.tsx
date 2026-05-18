@@ -16,50 +16,54 @@ export default function ContactForm() {
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormState({ ...formState, [e.target.name]: e.target.value })
   }
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  e.preventDefault()
 
-    setStatus("Sending...")
-    setStatusType("loading")
-    setIsSuccess(false)
+  setStatus("Sending...")
+  setStatusType("loading")
+  setIsSuccess(false)
 
-    const formData = new FormData()
-    formData.append("form-name", "contact")
-    Object.entries(formState).forEach(([key, value]) => formData.append(key, value))
+  const formData = new FormData()
+  Object.entries(formState).forEach(([key, value]) =>
+    formData.append(key, value),
+  )
 
-    try {
-      const res = await fetch("/_form.html", {
-        method: "POST",
-        body: formData,
-      })
+  try {
+    const res = await fetch("https://formspree.io/f/xpzvjnlo", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    })
 
-      if (!res.ok) throw new Error("Failed to submit")
+    if (!res.ok) throw new Error("Failed to submit")
 
-      setStatus("Message sent successfully!")
-      setStatusType("success")
-      setIsSuccess(true)
-      setTimeout(() => {
-        setIsSuccess(false)
-      }, 2000)
+    setStatus("Message sent successfully!")
+    setStatusType("success")
+    setIsSuccess(true)
 
-      setFormState({ name: "", email: "", project: "", message: "" })
-    } catch (error) {
-      console.error(error)
-      setStatus("Oops! Something went wrong.")
-      setStatusType("error")
+    setTimeout(() => {
       setIsSuccess(false)
-    }
+    }, 2000)
+
+    setFormState({ name: "", email: "", project: "", message: "" })
+  } catch (error) {
+    console.error(error)
+    setStatus("Oops! Something went wrong.")
+    setStatusType("error")
+    setIsSuccess(false)
   }
+}
 
   return (
-    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/[0.04] to-white/[0.02] p-6 sm:p-8">
+    <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-linear-to-b from-white/4 to-white/2 p-6 sm:p-8">
       <GridBackground />
       <div className="absolute right-10 top-8 h-14 w-14 rounded-md bg-white/5 blur-sm" />
       <div className="absolute right-24 top-20 h-10 w-10 rounded-md bg-white/5 blur-sm" />
       <div className="absolute left-1/2 top-1/2 h-24 w-24 rounded-full bg-blue-500/10 blur-3xl" />
 
-      <form name="contact" method="POST" onSubmit={handleSubmit} className="relative space-y-6">
-        <input type="hidden" name="form-name" value="contact" />
+      <form onSubmit={handleSubmit} className="relative space-y-6">
 
         <div>
           <label className="mb-2 block text-sm font-medium text-white/80">Your name</label>
@@ -107,7 +111,7 @@ export default function ContactForm() {
             onChange={handleChange}
             rows={6}
             placeholder="Tell us about your project..."
-            className="min-h-[180px] w-full rounded-xl border border-white/10 bg-white/5 px-4 py-4 text-white placeholder:text-white/30 outline-none transition focus:border-blue-500/40 focus:ring-2 focus:ring-blue-500/20"
+            className="min-h-45 w-full rounded-xl border border-white/10 bg-white/5 px-4 py-4 text-white placeholder:text-white/30 outline-none transition focus:border-blue-500/40 focus:ring-2 focus:ring-blue-500/20"
             required
           />
         </div>
