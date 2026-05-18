@@ -100,7 +100,7 @@ export default function Features() {
                                     className="size-full overflow-hidden rounded-2xl border bg-zinc-900 shadow-md">
                                     <Image
                                         src={images[activeItem].image}
-                                        className="size-full object-cover object-left-top mix-blend-lighten"
+                                        className="size-full object-cover object-top-left mix-blend-lighten"
                                         alt={images[activeItem].alt}
                                         width={1207}
                                         height={929}
