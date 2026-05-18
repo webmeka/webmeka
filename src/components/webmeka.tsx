@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { BadgePlus, Badge, ChartPie, BadgeCheck } from 'lucide-react'
 import Image from 'next/image'
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'motion/react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { BorderBeam } from '@/components/ui/border-beam'
 import logo1 from '../../public/logo/1.webp'
 import logo2 from '../../public/logo/2.webp'

@@ -8,7 +8,7 @@ import {
   AnimatePresence,
   useScroll,
   useMotionValueEvent,
-} from "motion/react";
+} from "framer-motion";
 import React, { createContext, useContext, useRef, useState } from "react";
 
 const NavbarContext = createContext<{ visible: boolean } | undefined>(
