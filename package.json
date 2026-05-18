@@ -1,6 +1,6 @@
 {
-  "name": "WEBMEKA STUDIO",
-  "version": "0.2.1",
+  "name": "webmeka",
+  "version": "0.4.2",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
