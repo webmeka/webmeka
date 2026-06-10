@@ -37,7 +37,7 @@ export function WhyChooseWebmeka() {
   ];
 
   return (
-    <section id="WhyWebmeka" aria-label="Webmeka why choose us section" className="relative z-10 py-15 max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-20">
+    <section id="WhyWebmeka" aria-label="Webmeka why choose us section" className="relative z-10 py-10 max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-20">
       <h2 className="text-4xl font-medium text-center pb-20">Why <span className='text-webmeka'>Choose Us?</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-2">
         {features.map((feature, index) => (

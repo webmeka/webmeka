@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/shiny-border';
 
 const ServicesSection = ({ paused = true }: { paused?: boolean }) => {
   return (
-    <section id="services" aria-label="Webmeka services section" className="w-full max-w-7xl mx-auto px-5 md:px-10 lg:px-20 py-15">
+    <section id="services" aria-label="Webmeka services section" className="w-full max-w-7xl mx-auto px-5 md:px-10 lg:px-20 py-10">
         <h2 className="text-4xl text-center font-medium mb-10">Our <span className='text-webmeka'>Services</span></h2>
 <div className="w-full grid lg:grid-cols-4 grid-cols-1 gap-10">
         {WebmekaServices.map((card) => (

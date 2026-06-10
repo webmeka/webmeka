@@ -4,7 +4,7 @@ import bannerImage from "../../public/banner.png";
 
 export default function HeroSectionOne() {
   return (
-    <section id="WebmekaHero" aria-label="Webmeka hero section" className="relative mx-auto mt-30 md:mt-18 flex max-w-7xl flex-col items-center justify-center pb-15">
+    <section id="WebmekaHero" aria-label="Webmeka hero section" className="relative mx-auto mt-30 md:mt-18 flex max-w-7xl flex-col items-center justify-center pb-10">
 
       <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-800/80 md:translate-x-[-9vw]">
         <div className="absolute top-0 h-40 w-px bg-linear-to-b from-transparent via-webmeka to-transparent" />
