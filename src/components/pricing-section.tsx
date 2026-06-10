@@ -3,7 +3,8 @@ import Pricing from '@/components/ui/pricing'
 
 export default async function PricingSection() {
     const headerList = await headers();
-    const countryCode = headerList.get('cf-ipcountry') || 'KE';
+    const rawCountry = headerList.get('cf-ipcountry');
+    const countryCode = rawCountry === 'KE' ? 'KE' : 'US';
 
     return (
         <section id='pricing' aria-label="WebMeka pricing section" className="py-10 max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-20">
