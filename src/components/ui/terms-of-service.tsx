@@ -1,4 +1,4 @@
-import BackButton from "./ui/back-button";
+import BackButton from "@/components/ui/back-button";
 
 const TermsOfService = () => {
   return (
@@ -17,9 +17,9 @@ const TermsOfService = () => {
           </h3>
           <p>
             These Terms of Service (&quot;Terms&quot;) govern your access to and use of the
-            consulting and professional services (the &quot;Services&quot;) provided by webmeka
+            consulting and professional services (the &quot;Services&quot;) provided by WebMeka
             (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). These Terms constitute a legally binding agreement
-            between you and webmeka. By accessing or using our Services, you acknowledge
+            between you and WebMeka. By accessing or using our Services, you acknowledge
             that you have read, understood, and agree to be bound by these Terms.
           </p>
         </div>
@@ -99,8 +99,7 @@ const TermsOfService = () => {
             7. Fees and Payment
           </h3>
           <ul className="list-disc pl-5 space-y-2">
-            <li>Fees are quoted in KES</li>
-                <li>
+            <li>
             A deposit of 50% of the total project fee is required before any work
             commences.
             </li>
@@ -143,8 +142,9 @@ const TermsOfService = () => {
             10. Intellectual Property
           </h3>
           <p>
-            Pre-existing materials remain our property. Upon full payment, you receive
-            a limited license to use Deliverables internally.
+            Any pre-existing materials, proprietary tools, or code libraries utilized during the project 
+            remain the property of WebMeka. However, upon receipt of full and final payment, complete 
+            ownership, intellectual property rights, and titles to all deliverables, source code, design assets, and branding, transfer entirely to you. The final project is 100% yours.
           </p>
         </div>
 
@@ -163,7 +163,7 @@ const TermsOfService = () => {
             12. Limitation of Liability
           </h3>
           <p>
-            To the maximum extent permitted by law, webmeka shall not be liable for
+            To the maximum extent permitted by law, WebMeka shall not be liable for
             indirect or consequential damages.
           </p>
         </div>
@@ -183,7 +183,7 @@ const TermsOfService = () => {
             14. Independent Contractor
           </h3>
           <p>
-            webmeka acts as an independent contractor and not as an employee or partner.
+            WebMeka acts as an independent contractor and not as an employee.
           </p>
         </div>
 
@@ -192,13 +192,13 @@ const TermsOfService = () => {
             16. Governing Law and Disputes
           </h3>
           <p>
-            These Terms are governed by the Kenyan laws, where webmeka is
+            These Terms are governed by the Kenyan laws, where WebMeka is
             headquartered, with disputes resolved through arbitration.
           </p>
         </div>
 
         <div className="pt-10 border-t text-xs text-neutral-500">
-          <p>Last Updated: 2025-12-15</p>
+          <p>Last Updated: 2026-06-10</p>
         </div>
 
         </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import TermsOfService from "@/components/terms-of-service";
+import TermsOfService from "@/components/ui/terms-of-service";
 
 export const metadata: Metadata = {
   title: "Terms of Service | WEBMEKA Creative Design Studio",
