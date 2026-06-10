@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     "SEO services",
     "software engineering",
     "creative design agency",
-    "website mantainance services",
+    "website maintenance services",
     "social media marketing",
     "social media management",
   ],
