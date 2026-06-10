@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const SocialLinks = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-5 text-sm border-2 border-webmeka w-fit mx-auto p-2 rounded-full">
+    <div className="flex flex-wrap justify-center gap-5 text-sm border-2 border-webmeka w-fit mx-auto p-3 rounded-full">
                     <Link
                         href="https://www.instagram.com/webmeka"
                         target="_blank"
@@ -11,7 +11,7 @@ const SocialLinks = () => {
                         aria-label="Instagram"
                         className="text-muted-foreground hover:text-primary block">
                         <svg
-                            className="size-6"
+                            className="size-7"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"
@@ -28,7 +28,7 @@ const SocialLinks = () => {
                         aria-label="Facebook"
                         className="text-muted-foreground hover:text-primary block">
                         <svg
-                            className="size-6"
+                            className="size-7"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"
@@ -45,7 +45,7 @@ const SocialLinks = () => {
                         aria-label="X/Twitter"
                         className="text-muted-foreground hover:text-primary block">
                         <svg
-                            className="size-6"
+                            className="size-7"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"
@@ -62,7 +62,7 @@ const SocialLinks = () => {
                         aria-label="LinkedIn"
                         className="text-muted-foreground hover:text-primary block">
                         <svg
-                            className="size-6"
+                            className="size-7"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"
@@ -80,7 +80,7 @@ const SocialLinks = () => {
                         aria-label="Threads"
                         className="text-muted-foreground hover:text-primary block">
                         <svg
-                            className="size-6"
+                            className="size-7"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"
@@ -102,7 +102,7 @@ const SocialLinks = () => {
                         aria-label="TikTok"
                         className="text-muted-foreground hover:text-primary block">
                         <svg
-                            className="size-6"
+                            className="size-7"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"

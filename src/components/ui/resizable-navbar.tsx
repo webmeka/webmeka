@@ -204,7 +204,7 @@ export const MobileNavMenu = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           className={cn(
-            "absolute inset-x-0 top-21 border border-accent z-50 flex w-64 mx-auto mr-0 flex-col items-center justify-center gap-4 rounded-4xl px-4 pt-8 bg-neutral-950/98 backdrop-blur-4xl",
+            "absolute inset-x-0 top-21 border border-accent z-50 flex w-65 mx-auto mr-0 flex-col items-center justify-center gap-4 rounded-4xl px-4 pt-8 bg-neutral-950/98 backdrop-blur-4xl",
             className,
           )}
         >
@@ -223,7 +223,7 @@ export const MobileNavToggle = ({
   onClick: () => void;
 }) => {
   return isOpen ? (
-    <IconX className="font-extrabold text-webmeka/50" onClick={onClick} />
+    <IconX className="font-extrabold text-webmeka" onClick={onClick} />
   ) : (
     <IconMenu2 className="text-white" onClick={onClick} />
   );
