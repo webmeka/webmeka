@@ -15,16 +15,16 @@ export default function PricingSection() {
                 <div className="mt-8 grid gap-6 md:mt-20 md:grid-cols-3">
                     <Card className="flex flex-col">
                         <CardHeader>
-                            <CardTitle className="font-medium font-mono">Starter Package</CardTitle>
+                            <CardTitle className="font-medium font-mono">Starter System</CardTitle>
                             <span className="my-3 block text-2xl font-mono font-semibold">KES 55,000/-</span>
-                            <CardDescription className="text-sm">Ideal for startups, small businesses or personal websites.</CardDescription>
+                            <CardDescription className="text-sm">Bespoke digital foundations for startups, growing brands, or personal platforms.</CardDescription>
                         </CardHeader>
 
                         <CardContent className="space-y-4">
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-base">
-                                {['1 - 5 Pages', 'Fully Responsive Design', 'Contact Form Integration', 'Basic SEO',  'Cloudflare Security Setup', 'Social Media Integration', '1 Month Maintenance & Support'].map((item, index) => (
+                                {['1 - 5 Custom Pages', 'Fully Responsive UI/UX', 'Contact & Lead Integration', 'Core SEO Setup',  'Cloudflare Performance & Security', 'Social Media Integration', '1 Month Technical Support'].map((item, index) => (
                                     <li
                                         key={index}
                                         className="flex items-center gap-2">
@@ -45,20 +45,19 @@ export default function PricingSection() {
                         </CardFooter>
                     </Card>
 
-                    <Card className="relative">
+                    <Card className="relative flex flex-col justify-between h-full">
                         <GridBackground />
                         <span className="absolute inset-x-0 -top-3 mx-auto flex h-6 w-fit items-center rounded-full px-3 py-1 bg-webmeka text-xs font-medium text-amber-950 ring-2 ring-webmeka ring-offset-2 ring-offset-card">Popular</span>
 
-                        <div className="flex flex-col">
                             <CardHeader>
-                                <CardTitle className="font-medium font-mono">Business Package</CardTitle>
+                                <CardTitle className="font-medium font-mono">Growth System</CardTitle>
                                 <span className="my-3 block text-2xl font-mono font-semibold">KES 80,000/-</span>
-                                <CardDescription className="text-sm">Optimized for established businesses looking to lead their industry</CardDescription>
+                                <CardDescription className="text-sm">Optimized for brands aiming to dominate their industry digital footprint.</CardDescription>
                             </CardHeader>
 
                             <CardContent className="space-y-4 mt-5">
                                 <ul className="list-outside space-y-3 text-sm">
-                                    {['Everything in Starter Package', '5 - 10 Pages', 'Blog Integration', 'CMS Integration', 'Google Analytics Integration', 'Standard SEO', 'Basic Logo & Business Card Design', '3 Month Maintenance & Support'].map((item, index) => (
+                                    {['Everything in Starter', '5 - 10 Core Pages', 'Dynamic Blog Architecture', 'Headless CMS Integration', 'Advanced Google Analytics & Tracking', 'Full-Scale SEO Engineering', '1 Month Dedicated Maintenance'].map((item, index) => (
                                         <li
                                             key={index}
                                             className="flex items-center gap-2">
@@ -76,21 +75,20 @@ export default function PricingSection() {
                                     <Link href="#contact">Get Started</Link>
                                 </Button>
                             </CardFooter>
-                        </div>
                     </Card>
 
                     <Card className="flex flex-col">
                         <CardHeader>
-                            <CardTitle className="font-medium font-mono">eCommerce Package</CardTitle>
+                            <CardTitle className="font-medium font-mono">Commerce System</CardTitle>
                             <span className="my-3 block text-2xl font-mono font-semibold">KES 120,000/-</span>
-                            <CardDescription className="text-sm">Tailored for Corporations & businesses needing e-commerce</CardDescription>
+                            <CardDescription className="text-sm">High-performance digital storefronts scaled for seamless transactional growth.</CardDescription>
                         </CardHeader>
 
                         <CardContent className="space-y-4">
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Everything in Business Package', 'Full eCommerce System', 'Mobile & Card payment Integration', 'CRM Integration', 'Advanced SEO', '3 Month Maintenance', '1 Year Priority Support'].map((item, index) => (
+                                {['Everything in Growth', 'Full eCommerce Infrastructure', 'Local & Global Payment Gateways', 'CRM & Inventory Pipeline Sync', 'Advanced Schema Optimization', '2 Months Priority Support'].map((item, index) => (
                                     <li
                                         key={index}
                                         className="flex items-center gap-2">
