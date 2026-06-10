@@ -10,12 +10,38 @@ import {
   MobileNavToggle,
   NavbarLogo,
 } from "@/components/ui/resizable-navbar";
-import { useState } from "react";
+
+import Link from "next/link";
+import { useState, useEffect, useRef } from "react";
 import SocialLinks from "@/components/ui/socials"
 
 export default function WebmekaNavbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    const handleScroll = () => {
+      setIsOpen(false);
+    };
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+      window.addEventListener("scroll", handleScroll, { passive: true }); 
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isOpen]);
+
   const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Services", link: "/services" },
     { name: "Pricing", link: "/pricing" },
@@ -37,19 +63,21 @@ export default function WebmekaNavbar() {
           <NavbarLogo />
           <MobileNavToggle isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
         </MobileNavHeader>
+      <div ref={menuRef}>
         <MobileNavMenu isOpen={isOpen} onClose={() => setIsOpen(false)}>
           {navItems.map((item, i) => (
-            <a
+            <Link
               key={i}
               href={item.link}
               onClick={() => setIsOpen(false)}
               className="block text-lg text-neutral-200"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
           <div className="mb-8"><SocialLinks /></div>
         </MobileNavMenu>
+      </div>
       </MobileNav>
     </Navbar>
   );
