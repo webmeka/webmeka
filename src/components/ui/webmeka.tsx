@@ -5,10 +5,10 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { BorderBeam } from '@/components/ui/border-beam'
-import logo1 from '../../public/logo/1.webp'
-import logo2 from '../../public/logo/2.webp'
-import logo3 from '../../public/logo/3.webp'
-import logo4 from '../../public/logo/4.webp'
+import logo1 from '../../../public/logo/1.webp'
+import logo2 from '../../../public/logo/2.webp'
+import logo3 from '../../../public/logo/3.webp'
+import logo4 from '../../../public/logo/4.webp'
 
 export default function Features() {
     type ImageKey = 'item-1' | 'item-2' | 'item-3' | 'item-4'
@@ -65,16 +65,16 @@ export default function Features() {
                                     Code Alone Isn&apos;t Enough
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>A functioning website is just a digital paperweight if it doesn&apos;t perform. To actually move the needle today, your digital footprint needs a seamless alignment of high-end <b>UI/UX</b>, code <b>engineering</b>, search visibility (<b>SEO</b>), and an intentional <b>growth strategy</b>.</AccordionContent>
+                            <AccordionContent className='text-base'>A website is just a digital paperweight if it doesn&apos;t perform. To truly grow a brand  in today&apos;s market, your digital footprint needs a seamless alignment of high-end <b>UI/UX</b>, code <b>engineering</b>, search visibility (<b>SEO</b>), and an intentional <b>growth strategy</b>.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <BadgePlus className="size-4" />
-                                    Enter the webmeka
+                                    Enter the WebMeka
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>When engineering logic meets high-end creative design and market strategy, a new kind of creator emerges: the <b>WEBMEKA</b>. Weaving brands with the same passion spiders weave their web!</AccordionContent>
+                            <AccordionContent className='text-base'>When code engineering meets high-end creative design and market strategy, a new kind of creator emerges: the <b>WEBMEKA</b>. Weaving brands with the same passion spiders weave their web!</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>
@@ -83,7 +83,7 @@ export default function Features() {
                                     Webmeka studio
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>That is who we are. By obliterating traditional agency silos, we partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
+                            <AccordionContent className='text-base'>We turned this philosophy into a functioning studio. By obliterating traditional agency silos, we partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
                         </AccordionItem>
                     </Accordion>
 

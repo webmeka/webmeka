@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import TrueFocus from "@/components/ui/trueFocus";
-import Features from "@/components/webmeka";
+import Features from "@/components/ui/webmeka";
 
 export const metadata: Metadata = {
   title: "About WEBMEKA | Strategy Driven Creative Design Studio",
