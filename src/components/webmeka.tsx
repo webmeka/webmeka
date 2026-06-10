@@ -52,20 +52,20 @@ export default function Features() {
                         <AccordionItem value="item-1">
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
-                                    <Badge className="size-4" />
-                                    The myth of Enough!
+                                    <ChartPie className="size-4" />
+                                    The Fragmented Myth
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>In the digital world, roles are often split. A <b>Frontend designer</b> handles the visuals. A <b>Backend developer</b> handles the code. Master both and you become a <u>Full-stack developer</u>.</AccordionContent>
+                            <AccordionContent className='text-base'>In the digital world, brands are usually forced to compromise. A <b>designer</b> crafts gorgeous visuals that are impossible to build, or a <b>developer</b> writes bulletproof code that looks entirely lifeless. Standard solutions leave you caught in the middle.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
-                                    <ChartPie className="size-4" />
-                                    NOT Enough!
+                                    <Badge className="size-4" />
+                                    Code Alone Isn&apos;t Enough
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>But, we realized that even &quot;<b>Full-stack</b>&quot; isn&apos;t enough to move the needle in today&apos;s market. To truly grow a brand, you need more than just a functioning website; you need the full spectrum of design, code, SEO, marketing, and growth strategy.</AccordionContent>
+                            <AccordionContent className='text-base'>A functioning website is just a digital paperweight if it doesn&apos;t perform. To actually move the needle today, your digital footprint needs a seamless alignment of high-end <b>UI/UX</b>, code <b>engineering</b>, search visibility (<b>SEO</b>), and an intentional <b>growth strategy</b>.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger>
@@ -74,7 +74,7 @@ export default function Features() {
                                     Enter the webmeka
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>When development meets creative design and strategic growth, a new kind of creator emerges: the <b>WEBMEKA</b>. Weaving brands with the same passion spiders weave their web!</AccordionContent>
+                            <AccordionContent className='text-base'>When engineering logic meets high-end creative design and market strategy, a new kind of creator emerges: the <b>WEBMEKA</b>. Weaving brands with the same passion spiders weave their web!</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>
@@ -83,7 +83,7 @@ export default function Features() {
                                     Webmeka studio
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>We are a Team of such creatives. We partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
+                            <AccordionContent className='text-base'>That is who we are. By obliterating traditional agency silos, we partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
                         </AccordionItem>
                     </Accordion>
 

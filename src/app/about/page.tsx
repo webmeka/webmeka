@@ -37,10 +37,11 @@ export default function AboutPage() {
       <p
         className="mt-10 max-w-2xl text-center text-lg text-neutral-400"
       >
-        Team Webmeka was born from a simple observation, brands struggle not because
+        WebMeka was born from a clear observation, brands struggle not because
         they lack ideas, but because they lack clarity and creative
         direction.
       </p>
+      <p className="text-lg">We exist to change that.</p>
 
       <Features />
 
