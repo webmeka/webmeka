@@ -64,7 +64,7 @@ export default function FooterSection() {
                         aria-label='link to webmeka terms of service page'
                         className="text-muted-foreground hover:text-primary block duration-150"
                     >
-                        <span>Terms of Service</span>
+                        <span>Terms Of Service</span>
                     </Link>
                 </div>
                 <div className="mb-8"><SocialLinks /></div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PrivacyPolicy from "@/components/privacy-policy";
+import PrivacyPolicy from "@/components/ui/privacy-policy";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | WEBMEKA Creative Design Studio",
