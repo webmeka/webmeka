@@ -37,7 +37,7 @@ export function WhyChooseWebmeka() {
   ];
 
   return (
-    <section id="WhyWebmeka" aria-label="Webmeka why choose us section" className="relative z-10 pt-20 max-w-7xl mx-auto">
+    <section id="WhyWebmeka" aria-label="Webmeka why choose us section" className="relative z-10 py-15 max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-20">
       <h2 className="text-4xl font-medium text-center pb-20">Why <span className='text-webmeka'>Choose Us?</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-2">
         {features.map((feature, index) => (
@@ -68,9 +68,9 @@ const Feature = ({
       )}
     >
       {index < 2 ? (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-slate-900 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-linear-to-t from-slate-900 to-transparent pointer-events-none" />
       ) : (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-slate-900 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-linear-to-b from-slate-900 to-transparent pointer-events-none" />
       )}
 
       <div className="mb-4 relative z-10 px-10 text-webmeka">{icon}</div>

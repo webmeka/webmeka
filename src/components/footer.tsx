@@ -27,8 +27,7 @@ const links = [
 
 export default function FooterSection() {
     return (
-        <footer aria-label="Webmeka footer" className="pb-18 md:py-28">
-            <div className="mx-auto max-w-5xl px-6">
+        <footer aria-label="Webmeka footer" className="pb-18 max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-20">
                 <Link
                     href="/"
                     aria-label="webmeka logo - click to go back to homepage"
@@ -36,8 +35,8 @@ export default function FooterSection() {
                     <Image
                     src="/Logo.svg"
                     alt="Webmeka Logo in footer section."
-                    width={80}
-                    height={80}
+                    width={150}
+                    height={150}
                     />
                 </Link>
 
@@ -71,7 +70,6 @@ export default function FooterSection() {
                 <div className="mb-8"><SocialLinks /></div>
                 <span className="text-muted-foreground block text-center text-sm mb-4"> Crafted with 🩵 by Team Webmeka</span>
                 <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} WEBMEKA STUDIO | All rights reserved.</span>
-            </div>
         </footer>
     )
 }

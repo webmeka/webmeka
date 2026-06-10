@@ -36,8 +36,7 @@ export default function WebmekaFAQs() {
     ]
 
     return (
-        <section id="faqs" aria-label="Webmeka frequently asked questions section" className="mt-20">
-            <div className="mx-auto max-w-5xl px-6 md:px-6">
+        <section id="faqs" aria-label="Webmeka frequently asked questions section" className="py-15 max-w-7xl mx-auto w-full px-5 md:px-10 lg:px-20">
                 <div className="mx-auto max-w-xl text-center">
                     <h2 className="text-balance font-medium text-3xl md:text-4xl lg:text-5xl">Frequently <br /><span className='text-webmeka'>Asked Questions</span></h2>
                     <p className="text-muted-foreground mt-4 text-balance">Get clear answers to the most common questions about our creative process and services.</p>
@@ -71,7 +70,6 @@ export default function WebmekaFAQs() {
                         </Link>
                     </p>
                 </div>
-            </div>
         </section>
     )
 }
