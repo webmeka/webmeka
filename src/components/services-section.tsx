@@ -27,7 +27,7 @@ const ServicesSection = ({ paused = true }: { paused?: boolean }) => {
     alt={card.thumbnail}
     width={128}
     height={128}
-    className="lg:w-32 md:w-20 w-16"
+    className="lg:w-32 w-20"
   />
   <div className="lg:ms-5">
     <h1 className="text-2xl md:text-2xl font-medium text-center lg:text-left">
