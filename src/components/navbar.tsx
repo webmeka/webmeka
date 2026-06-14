@@ -53,7 +53,7 @@ export default function WebmekaNavbar() {
       <NavBody className="px-5 py-4">
         <NavbarLogo />
         <NavItems items={navItems} />
-        <div className="flex relative z-20 hidden lg:block">
+        <div className="relative z-20 hidden lg:block">
           <SocialLinks />
         </div>
       </NavBody>

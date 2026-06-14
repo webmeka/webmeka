@@ -11,7 +11,7 @@ export default function WebmekaFAQs() {
         {
             id: 'item-2',
             question: 'When can I expect my website to go live?',
-            answer: 'Once you provide all necessary content and feedback, we launch your website within 2 weeks, depending on the complexity of the project and creative scope.',
+            answer: 'Once you provide all necessary content and feedback, we launch your website within 2-4 weeks, depending on the complexity of the project and creative scope.',
         },
         {
             id: 'item-3',
