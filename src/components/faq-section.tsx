@@ -63,7 +63,7 @@ export default function WebmekaFAQs() {
                     <p className="text-muted-foreground mt-6 text-center px-8">
                         Can&#39;t find what you&#39;re looking for? Contact our{' '}
                         <Link
-                            href="#contact"
+                            href="/contact-us"
                             aria-label="Webmeka team contact link"
                             className="text-webmeka font-medium hover:underline">
                              team
