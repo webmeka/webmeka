@@ -49,7 +49,7 @@ export default function WebmekaNavbar() {
   ];
 
   return (
-    <Navbar className="top-5">
+    <Navbar className="top-0">
       <NavBody className="px-5 py-4">
         <NavbarLogo />
         <NavItems items={navItems} />
