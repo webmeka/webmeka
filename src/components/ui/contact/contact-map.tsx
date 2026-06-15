@@ -3,7 +3,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
 
-// Ensure this path points to your actual globe.tsx file
 const World = dynamic(() => import("@/components/ui/contact/globe").then((m) => m.World), {
   ssr: false,
 });
@@ -398,16 +397,12 @@ export default function ContactMap() {
 
   return (
     <div className="relative flex flex-row items-center justify-center h-70 w-full overflow-hidden rounded-4xl border border-white/5 sm:h-80">
-      
-      {/* 3D Globe Canvas */}
-      <div className="absolute w-full inset-0 z-10 flex items-center justify-center translate-y-12 md:translate-y-16 scale-110">
+
+      <div className="absolute w-full bg-background inset-0 z-10 flex items-center justify-center translate-y-10 md:translate-y-16 scale-120">
         <div className="h-full w-full">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
-
-      {/* Subtle Bottom Gradient Fade (Keeps the bottom edge clean) */}
-      <div className="absolute inset-x-0 bottom-0 z-20 h-24 bg-linear-to-t from-black via-black/50 to-transparent pointer-events-none" />
       
     </div>
   );
