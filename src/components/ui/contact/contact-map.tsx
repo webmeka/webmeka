@@ -397,8 +397,15 @@ export default function ContactMap() {
 
   return (
     <div className="relative flex flex-row items-center justify-center h-70 w-full overflow-hidden rounded-4xl border border-white/5 sm:h-80">
+      <div className="absolute bottom-0 right-0 w-[80%] flex justify-end items-end z-0 pointer-events-none select-none pb-4 pr-6 sm:pb-6 sm:pr-8">
+        <h2 className="text-right text-4xl sm:text-6xl font-black tracking-tighter text-webmeka/80 leading-none">
+          <span className="block">Brands</span>
+          <span className="block">Without</span>
+          <span className="block">Borders</span>
+        </h2>
+      </div>
 
-      <div className="absolute w-full bg-background inset-0 z-10 flex items-center justify-center translate-y-10 md:translate-y-16 scale-120">
+      <div className="absolute w-full inset-0 z-10 flex items-center justify-center translate-y-10 md:translate-y-16 scale-120">
         <div className="h-full w-full">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
