@@ -57,7 +57,7 @@ export default function ContactMap() {
       startLng: -43.951191,
       endLat: -1.303396,
       endLng: 36.852443,
-      arcAlt: 0.5,
+      arcAlt: 0.3,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -120,7 +120,7 @@ export default function ContactMap() {
       startLng: 8.571831,
       endLat: -15.595412,
       endLng: -56.05918,
-      arcAlt: 0.5,
+      arcAlt: 0.3,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -129,7 +129,7 @@ export default function ContactMap() {
       startLng: -58.3816,
       endLat: 22.3193,
       endLng: 114.1694,
-      arcAlt: 0.7,
+      arcAlt: 0.4,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -174,7 +174,7 @@ export default function ContactMap() {
       startLng: 28.315853,
       endLat: 1.094136,
       endLng: -63.34546,
-      arcAlt: 0.7,
+      arcAlt: 0.3,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -193,15 +193,6 @@ export default function ContactMap() {
       endLat: 51.5072,
       endLng: -0.1276,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
-    },
-    {
-      order: 7,
-      startLat: -19.885592,
-      startLng: -43.951191,
-      endLat: -15.595412,
-      endLng: -56.05918,
-      arcAlt: 0.1,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -246,7 +237,7 @@ export default function ContactMap() {
       startLng: 103.8198,
       endLat: 40.7128,
       endLng: -74.006,
-      arcAlt: 0.5,
+      arcAlt: 0.3,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -260,20 +251,11 @@ export default function ContactMap() {
     },
     {
       order: 9,
-      startLat: 22.3193,
-      startLng: 114.1694,
-      endLat: -22.9068,
-      endLng: -43.1729,
-      arcAlt: 0.7,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
-    },
-    {
-      order: 9,
       startLat: 1.3521,
       startLng: 103.8198,
       endLat: -34.6037,
       endLng: -58.3816,
-      arcAlt: 0.5,
+      arcAlt: 0.3,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -282,7 +264,7 @@ export default function ContactMap() {
       startLng: -43.1729,
       endLat: 28.6139,
       endLng: 77.209,
-      arcAlt: 0.7,
+      arcAlt: 0.3,
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
@@ -376,15 +358,6 @@ export default function ContactMap() {
       color: colors[Math.floor(Math.random() * (colors.length - 1))],
     },
     {
-      order: 13,
-      startLat: -22.9068,
-      startLng: -43.1729,
-      endLat: -34.6037,
-      endLng: -58.3816,
-      arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
-    },
-    {
       order: 14,
       startLat: -33.936138,
       startLng: 18.436529,
@@ -405,7 +378,7 @@ export default function ContactMap() {
         </h2>
       </div>
 
-      <div className="absolute w-full inset-0 z-10 flex items-center justify-center translate-y-10 md:translate-y-16 scale-120">
+      <div className="absolute w-full inset-0 z-10 flex items-center justify-center translate-y-6 md:translate-y-16 scale-120">
         <div className="h-full w-full">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
