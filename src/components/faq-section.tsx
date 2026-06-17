@@ -25,8 +25,8 @@ export default function WebmekaFAQs() {
         },
                 {
             id: 'item-5',
-            question: 'Do you use AI in your creative process?',
-            answer: "Absolutely, AI helps us explore ideas faster, test designs, and refine content. It's a creative assistant. However, every decision and design choice is led by people, with purpose and clarity. That's who we are. Team Webmeka.",
+            question: 'Can you help if I already have a website?',
+            answer: "Absolutely. Whether your current website needs a redesign, performance improvements, new features, or a complete rebuild, we can step in at any stage. We evaluate what is worth keeping, what needs improvement, and create a clear path forward.",
         },
         {
             id: 'item-6',
