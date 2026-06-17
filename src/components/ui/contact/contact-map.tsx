@@ -373,8 +373,8 @@ export default function ContactMap() {
       <div className="absolute top-0 left-0 w-[80%] flex justify-start items-start z-0 pointer-events-none select-none pt-4 pl-6 sm:pt-6 sm:pl-8">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tighter text-zinc-500 leading-none">
           <span className="block">Brands</span>
-          <span className="block">Without</span>
-          <span className="block">Borders</span>
+          <span className="block">without</span>
+          <span className="block">borders</span>
         </h2>
       </div>
 
