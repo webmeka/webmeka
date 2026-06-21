@@ -11,7 +11,7 @@ export default function WebmekaFAQs() {
         {
             id: 'item-2',
             question: 'When can I expect my website to go live?',
-            answer: 'Once you provide all necessary content and feedback, we launch your website within 2-4 weeks, depending on the complexity of the project and creative scope.',
+            answer: 'Once you provide all necessary content and feedback, we launch your website within 2-6 weeks, depending on the complexity of the project and creative scope.',
         },
         {
             id: 'item-3',
@@ -26,7 +26,7 @@ export default function WebmekaFAQs() {
                 {
             id: 'item-5',
             question: 'Can you help if I already have a website?',
-            answer: "Absolutely. Whether your current website needs a redesign, performance improvements, new features, or a complete rebuild, we can step in at any stage. We evaluate what is worth keeping, what needs improvement, and create a clear path forward.",
+            answer: "Absolutely. Whether your current website needs a redesign, performance improvements, or a complete rebuild, we can step in at any stage. We evaluate what is worth keeping, what needs improvement, and create a clear path forward.",
         },
         {
             id: 'item-6',
