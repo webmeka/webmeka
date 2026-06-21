@@ -34,7 +34,7 @@ export default function Features() {
     }
 
     return (
-        <div className="py-12 md:py-20 lg:py-32">
+        <div className="py-10">
             <div className="absolute inset-0 -z-10 sm:inset-6 sm:rounded-b-3xl block to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]"></div>
             <div className="mx-auto max-w-5xl space-y-8 px-6 [--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
                 <h2 className="text-2xl font-semibold text-neutral-100">
@@ -53,37 +53,37 @@ export default function Features() {
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <ChartPie className="size-4" />
-                                    The Fragmented Myth
+                                    The Fragmentes
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>In the digital world, brands are usually forced to compromise. A <b>designer</b> crafts gorgeous visuals that are impossible to build, or a <b>developer</b> writes bulletproof code that looks entirely lifeless. Standard solutions leave you caught in the middle.</AccordionContent>
+                            <AccordionContent className='text-base'>As an ambitious brand, trying to dominate the digital space often feels like piecing together a broken puzzle. Forced to juggle isolated <u>campaigns</u>, <u>platforms</u>, and <u>technologies</u>, hoping they will somehow align to capture your audience.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <Badge className="size-4" />
-                                    Code Alone Isn&apos;t Enough
+                                    The Reality Check
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>A website is just a digital paperweight if it doesn&apos;t perform. To truly grow a brand  in today&apos;s market, your digital footprint needs a seamless alignment of high-end <b>UI/UX</b>, code <b>engineering</b>, search visibility (<b>SEO</b>), and an intentional <b>growth strategy</b>.</AccordionContent>
+                            <AccordionContent className='text-base'>The truth is, a website is just a digital paperweight if it doesn't convert. To truly <u>grow a brand</u> in today's market, your digital footprint needs a seamless alignment of <b>UI/UX</b>, <b>code</b>, <b>creative content</b>, and an <b>intentional growth strategy</b>.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <BadgePlus className="size-4" />
-                                    Enter the WebMeka
+                                    A Webmeka
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>When code engineering meets high-end creative design and market strategy, a new kind of creator emerges: the <b>WEBMEKA</b>. Weaving brands with the same passion spiders weave their web!</AccordionContent>
+                            <AccordionContent className='text-base'>Our approach to that alignment is one that treats every line of <b>code</b>, every <b>pixel</b>, and every strategic move as an essential thread. <u>Enter the WEBMEKA</u>: Weaving digital experiences with the deliberate instinct of a spider weaving its web!</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <BadgeCheck className="size-4" />
-                                    Webmeka studio
+                                    WebMeka Studio
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>We turned this philosophy into a functioning studio. By obliterating traditional agency silos, we partner with ambitious brands to create digital experiences that drive real business results.</AccordionContent>
+                            <AccordionContent className='text-base'>We are <b>WebMeka Studio:</b> a collective of digital artisans dedicated to building and growing brands. By bringing <b>design</b>, <b>development</b>, and <b>strategic growth</b> under one roof, we eliminate the friction of the fragmented puzzle.</AccordionContent>
                         </AccordionItem>
                     </Accordion>
 
