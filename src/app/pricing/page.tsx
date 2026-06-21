@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 export default function WebmekaPricing() {
   return (
-    <div className="mb-20">
+    <div className="-mt-5 mb-20">
     <PricingSection />
     <BackButton/>
     </div>
