@@ -28,14 +28,12 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="min-h-screen text-white ">
-      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-16 sm:px-6 md:py-24 lg:grid-cols-2 lg:gap-16 lg:px-8">
-        
-        {/* Left */}
+      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-10 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
         <div className="flex flex-col justify-between">
           <div>
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Let’s build
+              Let&apos;s build
               <span className="block text-white/80">something bold.</span>
             </h1>
 
@@ -78,7 +76,6 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Right */}
         <div>
           <ContactForm />
         </div>
