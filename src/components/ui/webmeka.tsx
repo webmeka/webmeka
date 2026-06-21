@@ -71,7 +71,7 @@ export default function Features() {
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <BadgePlus className="size-4" />
-                                    A Webmeka
+                                    The WebMeka
                                 </div>
                             </AccordionTrigger>
                             <AccordionContent className='text-base'>Our approach to that alignment is one that treats every line of <b>code</b>, every <b>pixel</b>, and every strategic move as an essential thread. <u>Enter the WEBMEKA</u>: Weaving digital experiences with the deliberate instinct of a spider weaving its web!</AccordionContent>
@@ -80,7 +80,7 @@ export default function Features() {
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <BadgeCheck className="size-4" />
-                                    WebMeka Studio
+                                    The Studio
                                 </div>
                             </AccordionTrigger>
                             <AccordionContent className='text-base'>We are <b>WebMeka Studio:</b> a collective of digital artisans dedicated to building and growing brands. By bringing <b>design</b>, <b>development</b>, and <b>strategic growth</b> under one roof, we eliminate the friction of the fragmented puzzle.</AccordionContent>
