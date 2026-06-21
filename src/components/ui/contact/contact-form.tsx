@@ -72,7 +72,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
             name="name"
             value={formState.name}
             onChange={handleChange}
-            placeholder="Name Here"
+            placeholder="Your Name"
             className="h-14 w-full rounded-xl border border-white/10 bg-white/5 px-4 text-white placeholder:text-white/30 outline-none transition focus:border-blue-500/40 focus:ring-2 focus:ring-blue-500/20"
             required
           />
