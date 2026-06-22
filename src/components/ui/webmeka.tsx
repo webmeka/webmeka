@@ -56,7 +56,7 @@ export default function Features() {
                                     The Fragments
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>As an ambitious brand, trying to dominate the digital space often feels like piecing together a broken puzzle. Forced to juggle isolated <u>campaigns</u>, <u>platforms</u>, and <u>technologies</u>, hoping they will somehow align to capture your audience.</AccordionContent>
+                            <AccordionContent className='text-base'>As an ambitious brand, trying to dominate the digital space often feels like piecing together a broken puzzle. Forced to juggle isolated <u>campaigns</u>, <u>platforms</u>, and <u>technologies</u>, hoping they will somehow align.</AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>
