@@ -83,7 +83,7 @@ export default function Features() {
                                     The Studio
                                 </div>
                             </AccordionTrigger>
-                            <AccordionContent className='text-base'>We are <b>WebMeka Studio:</b> a collective of digital artisans dedicated to building and growing brands. By bringing <b>design</b>, <b>development</b>, and <b>strategic growth</b> under one roof, we eliminate the friction of the fragmented puzzle.</AccordionContent>
+                            <AccordionContent className='text-base'>We are <b>WebMeka Studio</b>: a collective of designers, developers, and strategists united by a single purpose, building brands that grow. By working as a single connected force, we eliminate the friction of fragmented digital execution.</AccordionContent>
                         </AccordionItem>
                     </Accordion>
 
