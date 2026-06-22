@@ -53,7 +53,7 @@ export default function Features() {
                             <AccordionTrigger>
                                 <div className="flex items-center gap-2 text-base">
                                     <ChartPie className="size-4" />
-                                    The Fragmentes
+                                    The Fragments
                                 </div>
                             </AccordionTrigger>
                             <AccordionContent className='text-base'>As an ambitious brand, trying to dominate the digital space often feels like piecing together a broken puzzle. Forced to juggle isolated <u>campaigns</u>, <u>platforms</u>, and <u>technologies</u>, hoping they will somehow align to capture your audience.</AccordionContent>
