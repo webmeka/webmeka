@@ -44,7 +44,7 @@ export default function WebmekaNavbar() {
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Services", link: "/services" },
-    { name: "Pricing", link: "/pricing" },
+    // { name: "Pricing", link: "/pricing" },
     { name: "Contact", link: "/contact-us" },
   ];
 
