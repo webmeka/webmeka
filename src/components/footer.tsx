@@ -7,21 +7,21 @@ const links = [
         title: 'Services',
         href: '/services',
     },
-        {
-        title: 'Pricing',
-        href: '/pricing',
-    },
+    // {
+    //     title: 'Pricing',
+    //     href: '/pricing',
+    // },
     {
         title: 'FAQs',
         href: '/faqs',
     },
-        {
-        title: 'Contact',
-        href: '/contact-us',
-    },
     {
         title: 'About',
         href: '/about',
+    },
+    {
+        title: 'Contact',
+        href: '/contact-us',
     },
 ]
 
