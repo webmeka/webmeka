@@ -45,12 +45,12 @@ export const metadata: Metadata = {
     "social media management",
   ],
   description:
-    "WEBMEKA is a strategy-driven creative design agency based in Nairobi, Kenya. The only team your brand needs! specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results. Reach out to our team to get started on your next project and see how we can help you achieve your goals.",
+    "WEBMEKA is a strategy-driven creative design studio, Kenya. The only team your brand needs! specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results. Reach out to our team to get started on your next project and see how we can help you achieve your goals.",
 
   openGraph: {
     title: "WEBMEKA - Strategy Driven Creative Design Agency. Web Design, Web Development, Branding, Digital Marketing in Nairobi, Kenya.",
     description:
-      "WEBMEKA is a strategy-driven digital creative agency in Kenya, specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results.",
+      "WEBMEKA is a strategy-driven digital creative studio, specializing in web design, UI/UX, branding, digital marketing, and modern web development. We help businesses grow through thoughtful design, clear strategy, and innovative digital experiences that engage audiences and drive results.",
     url: "/",
     siteName: "WEBMEKA",
     locale: "en_US",
