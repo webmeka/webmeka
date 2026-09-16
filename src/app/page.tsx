@@ -3,6 +3,7 @@ import {
   webmekaOrganization,
   webmekaWebsite,
   webmekaHomepage,
+  webmekaServices
 } from "@/lib/structured-data";
 import type { Metadata } from "next";
 import HeroSectionOne from "@/components/hero-section";
@@ -26,6 +27,7 @@ export default function Home() {
           webmekaOrganization,
           webmekaWebsite,
           webmekaHomepage,
+          webmekaServices,
         ]}
       />
     <main className="mt-5 relative flex flex-col overflow-x-hidden items-center justify-items-center mx-auto">

@@ -1,4 +1,4 @@
-import type { ProfessionalService, WebSite, WebPage } from "schema-dts"
+import type { ProfessionalService, WebSite, WebPage, OfferCatalog } from "schema-dts"
  
 export const webmekaOrganization: ProfessionalService = {
   "@type": "ProfessionalService",
@@ -17,7 +17,10 @@ export const webmekaOrganization: ProfessionalService = {
   "https://www.tiktok.com/@webmeka",
   "https://github.com/webmeka/",
   "https://www.facebook.com/share/17911CWaJV/",
-],
+  ],
+  hasOfferCatalog: {
+  "@id": "https://webmeka.com/#services",
+  },
 }
 
 export const webmekaWebsite: WebSite = {
@@ -42,7 +45,66 @@ export const webmekaHomepage: WebPage = {
   isPartOf: {
     "@id": "https://webmeka.com/#website",
   },
+  mainEntity: {
+    "@id": "https://webmeka.com/#organization",
+ },
   about: {
     "@id": "https://webmeka.com/#organization",
   },
+}
+
+export const webmekaServices: OfferCatalog = {
+  "@type": "OfferCatalog",
+  "@id": "https://webmeka.com/#services",
+  name: "WEBMEKA Services",
+  itemListElement: [
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Web Design & Development",
+        description:
+          "Building responsive, high-performance websites with modern frameworks and designs.",
+        provider: {
+          "@id": "https://webmeka.com/#organization",
+        },
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Branding & Visual Identity",
+        description:
+          "Defining bold brand systems that unify visuals and UX across every digital touchpoint.",
+        provider: {
+          "@id": "https://webmeka.com/#organization",
+        },
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Creative Strategy & Content",
+        description:
+          "Designing digital campaigns, motion graphics, and branded content that amplify your brand.",
+        provider: {
+          "@id": "https://webmeka.com/#organization",
+        },
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "SEO & Web Performance",
+        description:
+          "Optimizing for visibility, speed, and engagement through technical and content-focused SEO.",
+        provider: {
+          "@id": "https://webmeka.com/#organization",
+        },
+      },
+    },
+  ],
 }
