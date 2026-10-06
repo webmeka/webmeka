@@ -30,9 +30,9 @@ const ServicesSection = ({ paused = true }: { paused?: boolean }) => {
     className="lg:w-32 w-20"
   />
   <div className="lg:ms-5">
-    <h1 className="text-2xl md:text-2xl font-medium text-center lg:text-left">
+    <h3 className="text-2xl md:text-2xl font-medium text-center lg:text-left">
       {card.title}
-    </h1>
+    </h3>
     <p className="mt-3 text-center lg:text-left text-base text-white-100">
       {card.desc}
     </p>
